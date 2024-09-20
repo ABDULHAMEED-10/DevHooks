@@ -140,7 +140,7 @@
 .close-icon {
   font-size: 20px;
   font-weight: bolder;
-  background-color: white;
+  background-color: var(--gray-hover-color);
   padding: 0.5rem;
   border-radius: 5px;
   line-height: 1rem;
