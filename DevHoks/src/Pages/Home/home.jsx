@@ -1,11 +1,15 @@
 /* eslint-disable no-unused-vars */
 import Layout from '../../Components/Layout';
 import React from 'react'
+import MetaData from '../../Components/MataData';
 const Home = () => {
     return (
+        <>
+        <MetaData title="Home" />
         <Layout>
-            <h1>Home Page</h1>
+            
         </Layout>
+        </>
     );
 };
 
