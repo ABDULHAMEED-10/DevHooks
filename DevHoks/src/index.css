@@ -18,13 +18,15 @@
     --heading-font-family: 'Manrope', sans-serif;
     --border-box-shadow:rgba(99, 99, 99, 0.2);
     --green-hover-color:#00a84e;
+    --gray-hover-color: rgb(228, 228, 228);
     
 }
 
 button{
-    background-color: var(--secondary-bg-color);
-    color: white;
-    border: none;
+    
+    background-color: transparent;
+    color: var(--green-hover-color);
+    border: 1px solid var(--green-hover-color);
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -38,4 +40,12 @@ button{
 }
 button:hover{
     background-color: var(--green-hover-color);
+    color: white
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font-family);
+    
+}
+p,a,span{
+    font-family: var(--text-font-fmaily);
 }
