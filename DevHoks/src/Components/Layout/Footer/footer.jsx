@@ -2,6 +2,7 @@
 import "./footer.css";
 import React from "react";
 import logo from "/public/logo.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="dark:bg-gray-900">
@@ -54,48 +55,48 @@ const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to="/service/web-development"
                     className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                   >
                     Web Development
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to= "/service/app-development"
                     className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                   >
                     App Development
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to= "/service/ui-ux-designing"
                     className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                   >
                     Ui/Ux Designing
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to= "/service/seo"
                     className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                   >
                     SEO Optimisation
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to= "/service/digital-marketing"
                     className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                   >
                     Digital Marketing
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -107,17 +108,17 @@ const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to= "/about"
                     className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
                   <a
-                    href="#"
+                    href="#team"
                     className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                   >
                     Our Team
@@ -126,7 +127,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="#reviews"
                     className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                   >
                     Reviews
@@ -142,17 +143,17 @@ const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to= "/contact"
                     className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
                   <a
-                    href="#"
+                    href="#FAQs"
                     className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                   >
                     FAQs
@@ -234,7 +235,7 @@ const Footer = () => {
             <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
               <li>
                 <a
-                  href="#"
+                  href="https://facebook.com/devhoks"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -258,7 +259,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="https://instagram.com/devhoks.official"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -282,7 +283,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="https://twitter.com/devhoks"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -302,7 +303,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/company/devhoks/"
                   rel="noreferrer"
                   target="_blank"
                   className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
