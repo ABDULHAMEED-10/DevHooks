@@ -1,12 +1,12 @@
 .navbar__container {
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
   box-shadow: 0 4px 2px -2px var(--border-box-shadow);
-  height: 5rem;
+  height: 4.5rem;
 }
 .navbar__logo {
   font-size: 24px;
-  font-weight: 700;
-  font-family: var(--heading-font-family);
+  font-weight:800;
+  color: var(--green-hover-color);
 }
 
 
@@ -23,12 +23,15 @@
   width: 100%;
   
 }
+.navbar__list{
+  display: flex;
+  gap: 3rem;
+  letter-spacing: 1.1px;
+}
 .navbar__item {
   position: relative;
 }
-.navbar__link{
-  color: black;
-}
+
 .for__icon:hover .drop__down__icon {
   transform: rotate(180deg);
   transition: transform 0.5s ease-in-out;
@@ -90,7 +93,7 @@
   justify-content: center;
 }
 .ham-icon {
-  font-size: 24px;
+  font-size: 28px;
   position: absolute;
   right: 2rem;
   cursor: pointer;
@@ -231,10 +234,11 @@
   .navhamburger {
     display: flex;
   }
-  .navbar__right {
+  .navbar__list {
     display: none;
   }
 }
+
 
 @keyframes slideInBg {
   0% {

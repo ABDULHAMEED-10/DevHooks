@@ -11,7 +11,7 @@ const Navbar = () => {
   const isServicePath = location.pathname.includes("service");
 
   return (
-    <div className="navbar__container flex flex-row items-center justify-start gap-20 px-20">
+    <div className="navbar__container flex flex-row items-center gap-20 px-20 md:justify-around ">
       <div className="navbar__left flex flex-row items-center justify-center gap-2">
         <img src="/logo.png" alt="Devhoks"></img>
         <NavLink to="/" className="navbar__logo">
@@ -19,8 +19,8 @@ const Navbar = () => {
         </NavLink>
       </div>
 
-      <div className="navbar__right">
-        <ul className="navbar__list flex tracking-wide gap-5 ">
+      <div className="navbar__right hidden md:flex lg:gap-2 lg:justify-between md:justify-end sm:justify-end ">
+        <ul className="navbar__list ">
           <li>
             <NavComponents toward="" nam="Home" />
           </li>
@@ -46,7 +46,7 @@ const Navbar = () => {
             <NavComponents toward="about" nam="About" />
           </li>
         </ul>
-        <button className="ml-5">
+        <button className="flex items-center align-center ">
           <NavLink to="/contact" className="nav__button">
             Contact
           </NavLink>

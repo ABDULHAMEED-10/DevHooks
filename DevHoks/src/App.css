@@ -1,0 +1,9 @@
+:root{
+    --popins-font-fmaily:"popins", sans-serif;
+    --manrope-font-family: 'Manrope', sans-serif;
+    --roboto-font-family: 'Roboto', sans-serif;
+    --border-box-shadow:rgba(94, 94, 94, 0.2);
+    --green-hover-color:#00a84e;
+    --gray-hover-color: rgb(228, 228, 228);
+}
+
