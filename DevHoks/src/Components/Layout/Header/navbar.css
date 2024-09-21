@@ -43,7 +43,7 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 10px;
-  width: 13rem;
+  width: 14rem;
   border-top: var(--green-hover-color) 0.2vw solid;
 }
 
@@ -61,17 +61,17 @@
   display: block;
   padding: 1rem;
   color: black;
-  width: 10rem;
+  width: 12rem;
 }
 .line {
   background-color: black;
-  height: 0.2vw;
-  width: 0.7vw;
+  height: 2px;
+  width: 10px;
   transition: width 0.3s ease-in-out;
 }
 
 .dropdown li:hover .line {
-  width: 1.5vw;
+  width: 20px;
   background-color: var(--green-hover-color);
 }
 
@@ -210,24 +210,29 @@
   border-bottom:none ;
 }
 
-.email p,.phone p{
-  font-size: 1.3rem;
+.email a,.phone a{
+  font-size: 1.2rem;
   color: var(--gray-hover-color);
 }
 
 
 .email i ,.phone i{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--gray-hover-color);
 }
 
 .social .icon{
   background-color: var(--gray-hover-color);
-  padding: 0.7rem;
   color: var(--green-hover-color);
   border-radius: 5px;
   font-size: 1.4rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 
 @media (max-width: 1024px) {

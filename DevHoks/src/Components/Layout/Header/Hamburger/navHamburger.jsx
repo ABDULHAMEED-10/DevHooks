@@ -48,20 +48,28 @@ const NavHamburger = () => {
 
             <footer className="text-white flex flex-col gap-3 w-100 mt-24 px-4 footer__wrapper">
               <div className="flex gap-3 items-center email">
-              <i className="fa-solid fa-envelope"></i>
-                <p>info@devhoks.org</p>
+                <i className="fa-solid fa-envelope"></i>
+                <a href="mailto:info@devhoks.org">info@devhoks.org</a>
               </div>
 
               <div className="flex gap-3 items-center phone">
-              <i className="fa-solid fa-phone-flip"></i>
-                <p>+92-3000713725</p>
+                <i className="fa-solid fa-phone-flip"></i>
+                <a href="tel:+923000713725">+92-3000713725</a>
               </div>
               
-              <div className="flex flex-row items-center justify-center gap-4 mt-2 social">
-                <i className="fa-brands fa-twitter icon"></i>
-                <i className="fa-brands fa-facebook-f icon"></i>
-                <i className="fa-brands fa-square-instagram icon"></i>
-                <i className="fa-brands fa-linkedin-in icon"></i>
+              <div className="flex flex-row items-center gap-4 mt-2 social">
+                <a href="https://twitter.com/devhoks" target="_blank" rel="noopener noreferrer">
+                  <i className="fa-brands fa-twitter icon"></i>
+                </a>
+                <a href="https://facebook.com/devhoks" target="_blank" rel="noopener noreferrer">
+                  <i className="fa-brands fa-facebook-f icon"></i>
+                </a>
+                <a href="https://instagram.com/devhoks.official" target="_blank" rel="noopener noreferrer">
+                  <i className="fa-brands fa-square-instagram icon"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/devhoks/" target="_blank" rel="noopener noreferrer">
+                  <i className="fa-brands fa-linkedin-in icon"></i>
+                </a>
               </div>
             </footer>
           </div>
