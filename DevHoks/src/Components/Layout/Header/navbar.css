@@ -97,6 +97,7 @@
   position: absolute;
   right: 2rem;
   cursor: pointer;
+  color: var(--green-hover-color);
 }
 .container__wrapper {
   display: flex;
@@ -143,10 +144,11 @@
 .close-icon {
   font-size: 20px;
   font-weight: bolder;
-  background-color: var(--gray-hover-color);
+  background-color: white;
   padding: 0.5rem;
   border-radius: 5px;
   line-height: 1rem;
+  color: var(--green-hover-color);
 }
 
 .ham-list {
@@ -212,17 +214,17 @@
 
 .email a,.phone a{
   font-size: 1.2rem;
-  color: var(--gray-hover-color);
+  color: white
 }
 
 
 .email i ,.phone i{
   font-size: 1.2rem;
-  color: var(--gray-hover-color);
+  color: white
 }
 
 .social .icon{
-  background-color: var(--gray-hover-color);
+  background-color: white;
   color: var(--green-hover-color);
   border-radius: 5px;
   font-size: 1.4rem;
