@@ -333,33 +333,32 @@ const Footer = () => {
             <p className="text-xs text-gray-500 dark:text-gray-400">
               &copy; 2024. Devhoks. All rights reserved.
             </p>
-
             <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to= "/rules/terms"
                   className="text-gray-500 transition hover:text-gray-200 dark:text-gray-400"
                 >
                   Terms & Conditions
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="#"
+                <Link
+                  to= "/rules/privacy"
                   className="text-gray-500 transition hover:text-gray-200 dark:text-gray-400"
                 >
                   Privacy Policy
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="#"
+                <Link
+                  to= "/rules/cookies"
                   className="text-gray-500 transition hover:text-gray-200 dark:text-gray-400"
                 >
                   Cookies
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
