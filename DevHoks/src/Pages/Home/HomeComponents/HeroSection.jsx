@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "./../CSS/heroSection.css";
+import "./../HomeComponents/HeroSection.css";
 import { Typewriter } from 'react-simple-typewriter'
 
 const HeroSection = () => {
@@ -35,7 +35,7 @@ const HeroSection = () => {
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             We Tackle Every Nech {' '}<span className="text__gradient"><Typewriter
             words={services}
-            loop={1}
+            loop={0}
             cursor
             cursorStyle='|'
             typeSpeed={70}
