@@ -4,7 +4,7 @@ import Navbar from "./Layout/Header/navbar";
 import React from "react";
 import PropTypes from "prop-types";
 import BeatLoader from "react-spinners/BeatLoader";
-const Layout = ({ children }) => {
+const Layout = ({children}) => {
   const [loading, setLoading] = React.useState(true);
 
   React.useEffect(() => {
@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
     }, 2000);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [setLoading]);
 
   if (loading) {
     return (
@@ -34,11 +34,11 @@ const Layout = ({ children }) => {
   }
 
   return (
-    <>
+    <div>
       <Navbar />
       {children}
       <Footer />
-    </>
+    </div>
   );
 };
 

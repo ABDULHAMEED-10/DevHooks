@@ -1,0 +1,5 @@
+.hero__section__wrapper{
+    background: rgb(229,249,239);
+    background: linear-gradient(90deg, rgba(229,249,239,1) 10%, rgba(154,245,195,1) 32%, rgba(184,244,210,1) 53%, rgba(154,245,195,1) 78%, rgba(229,249,239,1) 93%);
+}
+
