@@ -1,22 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./../CSS/heroSection.css";
-const names = [
-    'Web Development', 'App Development', 'Ui/Ux Designing', 'Graphic Designing', 'SEO Optimization', 'Digital Marketing'
-]
+import { Typewriter } from 'react-simple-typewriter'
 
 const HeroSection = () => {
-    const [newName, setnewName] = React.useState("");
 
-    const shuffle = React.useCallback(() => {
-        const index = Math.floor(Math.random() * names.length);
-        setnewName(names[index]);
-    }, []);
-
-    React.useEffect(() => {
-        const intervalID = setInterval(shuffle, 2000);
-        return () => clearInterval(intervalID);
-    }, [shuffle]);
+  const services = [
+    'Web Development','App Development','Ui/Ux Designing','Graphic Designing','SEO Optimization','Digital Marketing'
+  ]
     return (
       
       <div className="hero__section__wrapper">
@@ -42,11 +33,19 @@ const HeroSection = () => {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            We Tackle Every Nech
+            We Tackle Every Nech {' '}<span><Typewriter
+            words={services}
+            loop={0}
+            cursor
+            cursorStyle='|'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          /></span>
                         </h1>
-                        <h1 className="animated__words">
-                            {newName}
-                        </h1>
+                        
+                        
+                        
             <p className="mt-6 text-lg leading-8 text-gray-600">
             We are Top Agency in UK with over 6,600+ Satisfied Clients over the World.
             </p>
