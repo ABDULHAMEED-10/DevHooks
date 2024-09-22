@@ -2,4 +2,9 @@
     background: rgb(229,249,239);
     background: linear-gradient(90deg, rgba(229,249,239,1) 10%, rgba(154,245,195,1) 32%, rgba(184,244,210,1) 53%, rgba(154,245,195,1) 78%, rgba(229,249,239,1) 93%);
 }
-
+.text__gradient{
+    background: linear-gradient(to right, #07b262 0%, #c66e0f 50%, #8425dd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
