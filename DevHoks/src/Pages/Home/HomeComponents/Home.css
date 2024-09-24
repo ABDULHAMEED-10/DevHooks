@@ -8,8 +8,35 @@
     -webkit-text-fill-color: transparent;
 }
 .card{
-    box-shadow: 
-        rgba(196, 201, 195, 0.06) -4px -4px 4px 0px , /* Top */
-        rgba(142, 142, 142, 0.06) 4px 4px 4px 0px ,  /* Bottom */
-        rgba(142, 142, 142, 0.06) 4px 0px 4px 0px ;  /* Right */
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+  
+.border_line {
+    position: relative;
+}
+
+.border_line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #07b262;
+    transition: width 0.3s linear;
+}
+.service_title{
+    color: black;
+    transition: color 0.3s linear 0.2s;
+}
+.service_title:hover {
+    color: var(--green-hover-color);
+}
+.service_card:hover .service_icon {
+    transform: translateY(-0.7rem);
+    transition: transform 0.3s ease-in-out;
+}
+.border_line:hover::after {
+    width: 100%;
 }

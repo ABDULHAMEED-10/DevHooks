@@ -4,7 +4,7 @@ export const Services = () => {
   return (
     <div className="bg-white py-10 sm:py-14">
       <div className="mx-auto max-w-8xl px-4 lg:px-8 ">
-        <div className="mx-auto lg:text-center mb-5">
+        <div className="mx-auto text-center mb-5">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
             <div className="relative rounded-full px-3 py-1 text-md leading-6 font-medium text-green-500 ring-1 ring-green-500">
               Top Featured Services
@@ -18,7 +18,7 @@ export const Services = () => {
           These are the Special services of Devhoks,Guaranteed Satisfaction and Professionalism.
           </p>
         </div>
-        <div className="flex items-center justify-center gap-5">
+        <div className="flex flex-wrap items-center justify-center gap-5">
           {servicesData.map((service, i) => (
             <div
               key={i}
