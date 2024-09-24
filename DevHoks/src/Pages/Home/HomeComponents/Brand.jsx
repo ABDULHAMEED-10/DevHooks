@@ -7,10 +7,10 @@ export default function Brand() {
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-          <p className="mt-6 text-3xl leading-8 font-bold text-gray-900 flex justify-center items-center">
+          <p className="mt-6 text-2xl leading-8 font-semibold text-gray-900 flex justify-center items-center">
           Trusted by 6,600+ Clients and Companies including
             </p>
-            <div className="flex flex-wrap items-center justify-center">
+            <div className="flex items-center justify-center">
               {brandsData.map((brand, i) => (
                 <SingleImage key={i} brand={brand} />
               ))}
@@ -23,21 +23,15 @@ export default function Brand() {
 }
 
 const SingleImage = ({ brand }) => {
-  const { link, imageSrc, lightImageSrc, altText } = brand;
+  const { imageSrc, altText } = brand;
   return (
     <>
-      
-      <a
-        href={link}
-        className="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+      <div
+       
+        className="mx-10 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
       >
-        <img src={imageSrc} alt={altText} className="h-10 w-full dark:hidden" />
-        <img
-          src={lightImageSrc}
-          alt={altText}
-          className="hidden h-25 w-full dark:block"
-        />
-      </a>
+        <img src={imageSrc} alt={altText} className="h-15 w-full" />
+      </div>
     </>
   );
 };
@@ -45,9 +39,8 @@ const SingleImage = ({ brand }) => {
 
 SingleImage.propTypes = {
   brand: PropTypes.shape({
-    link: PropTypes.string.isRequired,
+    
     imageSrc: PropTypes.string.isRequired,
-    lightImageSrc: PropTypes.string.isRequired,
     altText: PropTypes.string.isRequired,
   }).isRequired,
 };
@@ -55,9 +48,8 @@ SingleImage.propTypes = {
 Brand.propTypes = {
   brandsData: PropTypes.arrayOf(
     PropTypes.shape({
-      link: PropTypes.string.isRequired,
+      
       imageSrc: PropTypes.string.isRequired,
-      lightImageSrc: PropTypes.string.isRequired,
       altText: PropTypes.string.isRequired,
     })
   ).isRequired,

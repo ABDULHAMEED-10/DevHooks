@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 const ServicesCard = ({ prop }) => {
 return (
-    <div className="px-8 py-10 bg-white border border-white rounded-lg card service_card">
+    <div className="px-8 py-10 bg-white border border-white rounded-lg service_card">
         <i className={`service_icon mb-4 text-4xl bg-green-500 w-14 h-14 rounded-lg flex items-center justify-center text-white ${prop.icon}`}></i>
-        <Link className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-900 service_title" to={prop.lnk}>
+        <Link className="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-900 service_title" to={prop.lnk}>
             <h5 className="inline border_line pb-1">
                 {prop.title}
             </h5>

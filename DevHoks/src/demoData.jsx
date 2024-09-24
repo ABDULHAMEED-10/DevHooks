@@ -1,4 +1,8 @@
-
+import brand1 from "../src/assets/brand-1-1.png";
+import brand2 from "../src/assets/brand-1-2.png";
+import brand3 from "../src/assets/brand-1-3.png";
+import brand4 from "../src/assets/brand-1-4.png";
+import brand5 from "../src/assets/brand-1-5.png";
 const servicestype = [
   {
     id: 1,
@@ -34,40 +38,35 @@ const servicestype = [
 const brandsData = [
   {
     id: 1,
-    imageSrc:"https://images.app.goo.gl/WW4z5APdLmmjorWd7"
-      ,
-    lightImageSrc:"https://images.app.goo.gl/WW4z5APdLmmjorWd7"
-      ,
-    altText: "graygrids",
-    link: "#",
+    imageSrc: brand1,
+    altText: "Jupiter",
+    
   },
   {
     id: 2,
-    imageSrc:"https://images.app.goo.gl/GsNqEzkRSJ5m6SoW8"
-      ,
-    lightImageSrc:"https://images.app.goo.gl/GsNqEzkRSJ5m6SoW8"
-      ,
-    altText: "envato",
-    link: "#",
+    imageSrc: brand2,
+    altText: "dyte",
+ 
   },
   {
     id: 3,
-    imageSrc:"https://images.app.goo.gl/JTUPfMEQP2QPnMhV8" ,
-    lightImageSrc:"https://images.app.goo.gl/JTUPfMEQP2QPnMhV8"
-      ,
-    altText: "uideck",
-    link: "#",
-  },
-  
-  {
-    id: 4,
-    imageSrc: "https://images.app.goo.gl/28BLD9xK9fCvKDKH6",
-    lightImageSrc:"https://images.app.goo.gl/28BLD9xK9fCvKDKH6"
-      ,
-    altText: "ayroui",
-    link: "#",
+    imageSrc: brand3,
+    altText: "fampay",
+   
   },
 
+  {
+    id: 4,
+    imageSrc: brand4,
+    altText: "swigg",
+  
+  },
+  {
+    id: 5,
+    imageSrc: brand5,
+    altText: "Mighty",
+   
+  },
 ];
 const servicesData = [
   {
@@ -93,7 +92,32 @@ const servicesData = [
     description:
       "We provide a wide range of UI/UX designing services to help you grow your business online.",
     link: "/service/ui-ux-designing",
-  }
-]
+  },
+];
 
-export { servicestype, brandsData, servicesData };
+const discountData = [
+  {
+    id: 1,
+    icon: "fa-solid fa-circle-check",
+    title: "Army Veterans - 20% Off",
+    description:
+      "DevHoks Honor You, 20% Discount for Army Veterans. You Served Us, Now Let Us Serve You.",
+
+  },
+  {
+    id: 2,
+    icon: "fa-solid fa-hand-holding-hand",
+    title: "Individuals over 60",
+    description:
+      "Special 20% Discount for Individuals Over 60. Let Us Help You, Every Step of the Way.",
+   
+  },
+  {
+    id: 3,
+    icon: "fas fa-rocket",
+    title: "Under 20 Enterpreneurs",
+    description:
+      "Special 15% Discount for Entrepreneurs Under 20. Your Ideas Deserve Our Respect and Support.",
+  },
+];
+export { servicestype, brandsData, servicesData,discountData };

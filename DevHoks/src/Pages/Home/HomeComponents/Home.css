@@ -1,14 +1,15 @@
 .hero__section__wrapper{
     background: rgb(229,249,239);
-    background: linear-gradient(90deg, rgba(229,249,239,1) 10%, rgba(154,245,195,1) 32%, rgba(184,244,210,1) 53%, rgba(154,245,195,1) 78%, rgba(229,249,239,1) 93%);
+    background: linear-gradient(360deg,  rgb(255, 255, 255) 10%, rgba(154,245,195,1) 32%, rgba(184,244,210,1) 53%, rgba(154,245,195,1) 78%, rgb(213, 248, 224) 93%);
+    border: none;
 }
 .text__gradient{
     background: linear-gradient(to right, #07b262 0%, #c66e0f 50%, #8425dd 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 0.5rem;
 }
-.card{
-
+.service_card{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
   
@@ -26,6 +27,7 @@
     background-color: #07b262;
     transition: width 0.3s linear;
 }
+
 .service_title{
     color: black;
     transition: color 0.3s linear 0.2s;
@@ -35,7 +37,7 @@
 }
 .service_card:hover .service_icon {
     transform: translateY(-0.7rem);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s linear;
 }
 .border_line:hover::after {
     width: 100%;
