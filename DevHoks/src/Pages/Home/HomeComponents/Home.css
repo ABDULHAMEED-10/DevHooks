@@ -7,4 +7,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-  
+.card{
+    box-shadow: 
+        rgba(196, 201, 195, 0.06) -4px -4px 4px 0px , /* Top */
+        rgba(142, 142, 142, 0.06) 4px 4px 4px 0px ,  /* Bottom */
+        rgba(142, 142, 142, 0.06) 4px 0px 4px 0px ;  /* Right */
+}

@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "./../HomeComponents/HeroSection.css";
+import "./../HomeComponents/Home.css";
 import { Typewriter } from 'react-simple-typewriter'
 
 const HeroSection = () => {
@@ -24,16 +24,16 @@ const HeroSection = () => {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
-        <div className="mx-auto max-w-2xl py-20 sm:py-28 lg:py-36">
+        <div className="mx-auto max-w-5xl py-24 sm:py-32 lg:py-43">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-4 py-2 text-md leading-6 font-medium text-green-900 bg-green-300 ring-1 ring-green-300">
-              Delivering The Solution Over The Globe.{' '}
+            <div className="relative rounded-full px-4 py-2 text-md leading-6 font-medium text-green-700 bg-green-300 ring-1 ring-green-300">
+              Delivering The Solution Over The Globe.{''}
               
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            We Tackle Every Nech {' '}<span className="text__gradient"><Typewriter
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-8xl ">
+            We Tackle Every Nech {' '}<div className="text__gradient"><Typewriter
             words={services}
             loop={0}
             cursor
@@ -41,7 +41,7 @@ const HeroSection = () => {
             typeSpeed={70}
             deleteSpeed={50}
             delaySpeed={1000}
-          /></span>
+          /></div>
                         </h1>
                         
                         
@@ -64,7 +64,11 @@ const HeroSection = () => {
                   <i className="fa-solid fa-headset pr-2"></i>
                  Free Consultion
               </a>
-            </div>
+              </div>
+
+              <p className="mt-6 text-sm leading-8 text-gray-600">
+              <i className="fa-solid fa-circle-info mr-2"></i>Get a Free Consultation from Our Experts.
+              </p>
           </div>
         </div>
         <div
