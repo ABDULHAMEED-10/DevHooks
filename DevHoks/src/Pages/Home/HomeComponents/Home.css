@@ -1,3 +1,4 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css');
 .hero__section__wrapper{
     background: rgb(229,249,239);
     background: linear-gradient(360deg,  rgb(255, 255, 255) 10%, rgba(154,245,195,1) 32%, rgba(184,244,210,1) 53%, rgba(154,245,195,1) 78%, rgb(213, 248, 224) 93%);

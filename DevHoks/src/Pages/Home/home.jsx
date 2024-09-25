@@ -7,6 +7,8 @@ import Brand from './HomeComponents/Brand';
 import Services from './HomeComponents/Services';
 import TimeLine from './HomeComponents/TimeLine';
 import SpecialOffer from './HomeComponents/SpecialOffer';
+import Stats from './HomeComponents/Stats';
+import Caurosel from './HomeComponents/Caurosel';
 const Home = () => {
     return (
         <div>
@@ -17,6 +19,10 @@ const Home = () => {
                 <Services />
                 <TimeLine />
                 <SpecialOffer />
+                <Stats />
+                <Caurosel />
+                
+                
                 
         </Layout>
         </div>

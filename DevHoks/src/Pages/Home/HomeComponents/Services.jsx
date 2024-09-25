@@ -6,7 +6,7 @@ export const Services = () => {
       <div className="mx-auto max-w-8xl px-4 lg:px-8 ">
         <div className="mx-auto text-center mb-5">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 font-semibold text-green-600 ring-1 ring-green-600 uppercase">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 font-medium text-green-600 ring-1 ring-green-600 uppercase">
               Top Featured Services
               
             </div>
