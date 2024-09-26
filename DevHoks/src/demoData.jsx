@@ -173,4 +173,33 @@ const reviewsData = [
 
   
 ];
-export { servicestype, brandsData, servicesData,discountData,reviewsData };
+
+const statsData = [
+  {
+    id: 1,
+    start: 0,
+    end: 15,
+    title: "Expert Consultants",
+  },
+  
+  {
+    id: 2,
+    start: 0,
+    end: 65,
+    title: "Active Clients",
+  },
+  {
+    id: 3,
+    start: 0,
+    end: 115,
+    title: "Projects Delivered",
+  },
+  {
+    id: 4,
+    start: 0,
+    end: 14,
+    title: "Orders in Queue",
+  },
+  
+]
+export { servicestype, brandsData, servicesData,discountData,reviewsData,statsData };

@@ -13,7 +13,7 @@ return (
             {prop.description}
         </p>
         <Link
-            to={prop.lnk}
+            to={prop.link}
             className="flex items-center text-md font-semibold text-center text-green-700 hover:text-black hover:transition duration-300 focus:text-black dark:hover:text-black"
         >
             Let&apos;s do it
@@ -24,12 +24,6 @@ return (
 };
 
 ServicesCard.propTypes = {
-  prop: PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-      lnk: PropTypes.string.isRequired,
-    icon: PropTypes.string.isRequired,
-  }).isRequired,
+prop: PropTypes.object.isRequired,
 };
-
 export default ServicesCard;

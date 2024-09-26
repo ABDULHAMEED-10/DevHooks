@@ -1,3 +1,5 @@
+import {statsData} from "../../../../demoData"
+import StatsCard from "./StatsCard";
 export const Stats = () => {
   return (
     <>
@@ -29,38 +31,10 @@ export const Stats = () => {
           </div>
           <div className="w-full lg:w-4/5">
             <div className="flex flex-col flex-1 gap-10 lg:gap-0 lg:flex-row lg:justify-between">
-              <div className="block">
-                <div className="font-manrope font-bold text-4xl text-green-600 mb-3 text-center lg:text-left">
-                  260+
-                </div>
-                <span className="text-gray-900 text-center block lg:text-left">
-                  Expert Consultants
-                </span>
-              </div>
-              <div className="block">
-                <div className="font-manrope font-bold text-4xl text-green-600 mb-3 text-center lg:text-left">
-                  975+
-                </div>
-                <span className="text-gray-900 text-center block lg:text-left">
-                  Active Clients
-                </span>
-              </div>
-              <div className="block">
-                <div className="font-manrope font-bold text-4xl text-green-600 mb-3 text-center lg:text-left">
-                  724+
-                </div>
-                <span className="text-gray-900 text-center block lg:text-left">
-                  Projects Delivered
-                </span>
-              </div>
-              <div className="block">
-                <div className="font-manrope font-bold text-4xl text-green-600 mb-3 text-center lg:text-left">
-                  89+
-                </div>
-                <span className="text-gray-900 text-center block lg:text-left">
-                  Orders in Queue
-                </span>
-              </div>
+              {statsData.map((stat, i) => (
+                <StatsCard key={i} prop={stat} />
+              ))
+              }
             </div>
           </div>
         </div>
