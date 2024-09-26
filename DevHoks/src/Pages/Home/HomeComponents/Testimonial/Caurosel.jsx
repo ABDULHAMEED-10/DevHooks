@@ -1,7 +1,7 @@
 import "./../Home.css";
 import { reviewsData } from "../../../../demoData";
 import CaurosalCard from "./CaurosalCard";
-import React, { useState } from "react";
+import  { useState } from "react";
 
 export const Caurosel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,17 +27,17 @@ export const Caurosel = () => {
                 Reviews of happy clients
               </div>
             </div>
-            <h1 className="text-6xl md:text-6xl font-bold mb-5 text-gray-900">
+            <h1 className="text-6xl md:text-6xl font-bold mb-2   text-gray-900">
               What people are saying.
             </h1>
-            <h3 className="text-xl mb-5 font-light">
+            <h3 className="text-lg mb-5 font-light">
               See why people like you choose Devhoks
             </h3>
           </div>
 
-          <div className="relative flex items-center  justify-center w-full max-w-2xl  overflow-hidden px-5">
+          <div className="relative flex items-center justify-center w-full lg:  max-w-3xl  overflow-hidden">
             <button
-              className="ring-1 ring-green-700 border-none bg-green-700 text-white ml-2 p-2 text-lg cursor-pointer absolute top-1/2 transform -translate-y-1/2 left-0 z-10 dark:bg-green-700 dark:text-white md:p-4 md:text-xl lg:p-4 lg:text-3xl flex items-center "
+              className="ring-1 ring-green-700 border-none bg-green-700 text-white ml-2 p-2 text-lg text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 left-0 z-10 dark:bg-green-700 dark:text-white md:p-4 md:text-xl lg:p-4 lg:text-3xl flex items-center "
               onClick={goToPrevious}
             >
               &#8249;
@@ -48,7 +48,7 @@ export const Caurosel = () => {
             </div>
 
             <button
-              className="ring-1 ring-green-700 border-none bg-green-700 text-white mr-2  p-2 text-lg cursor-pointer absolute top-1/2 transform -translate-y-1/2 right-0 z-10 dark:bg-green-700  md:p-4 md:text-xl lg:p-4 lg:text-3xl flex items-center"
+              className="ring-1 ring-green-700 border-none bg-green-700 text-white mr-2  p-2 text-lg text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 right-0 z-10 dark:bg-green-700  md:p-4 md:text-xl lg:p-4 lg:text-3xl flex items-center"
               onClick={goToNext}
             >
               &#8250;

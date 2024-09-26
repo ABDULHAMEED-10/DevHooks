@@ -8,17 +8,17 @@ export const TimeLine = () => {
               Thats How We Work
             </div>
           </div>
-          <p className="mt-4 text-2xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
+          <p className="mt-4 text-2xl font-semibold tracking-tight text-gray-900 md:text-4xl lg:text-6xl">
             Experience Devhoks&apos;s Flows.
           </p>
-          <p className="mt-4 text-lg font-medium tracking-wide leading-8 text-gray-600">
+          <p className="mt-4 text-md font-medium tracking-wide text-gray-600 md:text-lg lg:text-lg">
             Think of our algorithm like butter on bread—smooth and effortless.
             It&apos;s that simple! Each step flows seamlessly, making meetings a
             breeze.
           </p>
         </div>
       </div>
-      <div className="px-48 flex items-center">
+      <div className="px-10 md:px-24 lg:px-48 ">
         <ol className="relative border-s border-gray-200 dark:border-gray-700">
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
