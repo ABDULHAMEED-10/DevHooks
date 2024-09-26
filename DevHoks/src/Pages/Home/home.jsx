@@ -9,6 +9,7 @@ import TimeLine from './HomeComponents/WorkFlow/TimeLine';
 import SpecialOffer from './HomeComponents/Discount/SpecialOffer';
 import Stats from './HomeComponents/Satatistics/Stats';
 import Caurosel from './HomeComponents/Testimonial/Caurosel';
+import Connect from './HomeComponents/CallToWork/Connect';
 const Home = () => {
     return (
         <div>
@@ -21,6 +22,7 @@ const Home = () => {
                 <SpecialOffer />
                 <Stats />
                 <Caurosel />
+                <Connect />
                 
         </Layout>
         </div>
