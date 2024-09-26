@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
-import { brandsData } from "../../../demoData";
+import { brandsData } from "../../../../demoData";
 
 export default function Brand() {
   return (
-    <section className="bg-white pt-10 dark:bg-dark">
+    <section className="bg-white pt-10 dark:bg-dark overflow-hidden">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -38,20 +38,9 @@ const SingleImage = ({ brand }) => {
 
 
 SingleImage.propTypes = {
-  brand: PropTypes.shape({
-    
-    imageSrc: PropTypes.string.isRequired,
-    altText: PropTypes.string.isRequired,
-  }).isRequired,
+  brand: PropTypes.object,
 };
 
-Brand.propTypes = {
-  brandsData: PropTypes.arrayOf(
-    PropTypes.shape({
-      
-      imageSrc: PropTypes.string.isRequired,
-      altText: PropTypes.string.isRequired,
-    })
-  ).isRequired,
-};
+
+
 

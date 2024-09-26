@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import "./../HomeComponents/Home.css";
+import "./../../HomeComponents/Home.css";
 import { Typewriter } from 'react-simple-typewriter'
 
 const HeroSection = () => {

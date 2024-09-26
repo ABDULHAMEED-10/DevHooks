@@ -1,5 +1,5 @@
 import DiscountCard from "./SpecialOfferCard";
-import { discountData } from "../../../demoData";
+import { discountData } from "../../../../demoData";
 export const SpecialOffer = () => {
   return (
     <div className="bg-white py-10 sm:py-14 ">

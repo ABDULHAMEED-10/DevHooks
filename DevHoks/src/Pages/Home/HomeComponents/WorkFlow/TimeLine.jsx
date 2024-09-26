@@ -9,7 +9,7 @@ export const TimeLine = () => {
             </div>
           </div>
           <p className="mt-4 text-2xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
-            Experience Elitechain&apos;s Flows.
+            Experience Devhoks&apos;s Flows.
           </p>
           <p className="mt-4 text-lg font-medium tracking-wide leading-8 text-gray-600">
             Think of our algorithm like butter on bread—smooth and effortless.

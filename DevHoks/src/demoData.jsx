@@ -3,6 +3,10 @@ import brand2 from "../src/assets/brand-1-2.png";
 import brand3 from "../src/assets/brand-1-3.png";
 import brand4 from "../src/assets/brand-1-4.png";
 import brand5 from "../src/assets/brand-1-5.png";
+import test1 from "../src/assets/tes-1-1.jpg";
+import test2 from "../src/assets/tes-1-2.jpg";
+import test3 from "../src/assets/tes-1-3.jpg";
+import test4 from "../src/assets/tes-1-4.jpg";
 const servicestype = [
   {
     id: 1,
@@ -120,4 +124,53 @@ const discountData = [
       "Special 15% Discount for Entrepreneurs Under 20. Your Ideas Deserve Our Respect and Support.",
   },
 ];
-export { servicestype, brandsData, servicesData,discountData };
+
+const reviewsData = [
+  {
+    id: 1,
+    pic: test1,
+    name: "Kenzie Edgar",
+    review:
+      "DevHoks exceeded our expectations with their web development services. Their attention to detail and commitment to deadlines were outstanding. Our platform is now faster, more user-friendly, and highly secure. Highly recommended!",
+  },
+  {
+    id: 2,
+    pic: test2,
+    name: "Stevie Tifft",
+    review:
+      "Working with DevHoks was an absolute pleasure. They transformed our vision into a stunning e-commerce website with seamless functionality. The team was professional, responsive, and went above and beyond to deliver a perfect product.",
+  },
+  {
+    id: 3,
+    pic: test3,
+    name: "Tommie Ewart",
+    review:
+      "We hired DevHoks for a mobile app project, and their team delivered an exceptional product. The app is sleek, fast, and exactly what we needed to engage our customers. Great communication throughout the process!",
+  },
+
+  {
+    id: 4,
+    pic: test4,
+    name: "Kendall Mcguffie",
+    review:
+      "DevHoks is a team of highly skilled professionals who are committed to delivering quality work. They built a beautiful website for my business that is easy to navigate and has helped me attract more clients. I am extremely happy with the results!",
+  },
+
+  {
+    id: 5,
+    pic: test1,
+    name: "Maurice Harnish",
+    review:
+      "I am thrilled with the website that DevHoks created for my business. It is visually stunning, easy to use, and has helped me increase my online sales. The team was a pleasure to work with and delivered the project on time and within budget.",
+  },
+  {
+    id: 6,
+    pic: test2,
+    name: "Dorothy Harnish",
+    review:
+      "DevHoks is the best web development company I have ever worked with. They are professional, reliable, and incredibly talented. They built a beautiful website for my business that has helped me attract more customers and grow my brand. I highly recommend them!",
+  },
+
+  
+];
+export { servicestype, brandsData, servicesData,discountData,reviewsData };

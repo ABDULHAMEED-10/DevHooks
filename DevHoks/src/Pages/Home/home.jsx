@@ -2,13 +2,13 @@
 import Layout from '../../Components/Layout';
 import React from 'react'
 import MetaData from '../../Components/MataData';
-import HeroSection from './HomeComponents/HeroSection';
-import Brand from './HomeComponents/Brand';
-import Services from './HomeComponents/Services';
-import TimeLine from './HomeComponents/TimeLine';
-import SpecialOffer from './HomeComponents/SpecialOffer';
-import Stats from './HomeComponents/Stats';
-import Caurosel from './HomeComponents/Caurosel';
+import HeroSection from './HomeComponents/HeroSec/HeroSection';
+import Brand from './HomeComponents/TrusedBy/Brand';
+import Services from './HomeComponents/Service/Services';
+import TimeLine from './HomeComponents/WorkFlow/TimeLine';
+import SpecialOffer from './HomeComponents/Discount/SpecialOffer';
+import Stats from './HomeComponents/Satatistics/Stats';
+import Caurosel from './HomeComponents/Testimonial/Caurosel';
 const Home = () => {
     return (
         <div>
@@ -21,8 +21,6 @@ const Home = () => {
                 <SpecialOffer />
                 <Stats />
                 <Caurosel />
-                
-                
                 
         </Layout>
         </div>

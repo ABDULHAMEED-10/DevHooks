@@ -1,4 +1,4 @@
-import { servicesData } from "../../../demoData";
+import { servicesData } from "../../../../demoData";
 import ServicesCard from "./ServicesCard";
 export const Services = () => {
   return (
