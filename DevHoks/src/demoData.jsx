@@ -140,16 +140,10 @@ const reviewsData = [
     review:
       "Working with DevHoks was an absolute pleasure. They transformed our vision into a stunning e-commerce website with seamless functionality. The team was professional, responsive, and went above and beyond to deliver a perfect product.",
   },
-  {
-    id: 3,
-    pic: test3,
-    name: "Tommie Ewart",
-    review:
-      "We hired DevHoks for a mobile app project, and their team delivered an exceptional product. The app is sleek, fast, and exactly what we needed to engage our customers. Great communication throughout the process!",
-  },
+
 
   {
-    id: 4,
+    id: 3,
     pic: test4,
     name: "Kendall Mcguffie",
     review:
@@ -157,19 +151,13 @@ const reviewsData = [
   },
 
   {
-    id: 5,
-    pic: test1,
+    id: 4,
+    pic: test3,
     name: "Maurice Harnish",
     review:
       "I am thrilled with the website that DevHoks created for my business. It is visually stunning, easy to use, and has helped me increase my online sales. The team was a pleasure to work with and delivered the project on time and within budget.",
   },
-  {
-    id: 6,
-    pic: test2,
-    name: "Dorothy Harnish",
-    review:
-      "DevHoks is the best web development company I have ever worked with. They are professional, reliable, and incredibly talented. They built a beautiful website for my business that has helped me attract more customers and grow my brand. I highly recommend them!",
-  },
+
 
   
 ];
