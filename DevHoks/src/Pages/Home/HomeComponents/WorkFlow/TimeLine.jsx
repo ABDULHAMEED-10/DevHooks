@@ -1,7 +1,7 @@
 export const TimeLine = () => {
   return (
     <div>
-      <div className="mx-auto max-w-8xl px-4 lg:px-8 ">
+      <div className="mx-auto max-w-2xl px-4 lg:px-8 lg:max-w-6xl ">
         <div className="mx-auto text-center mb-5">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
             <div className="relative uppercase rounded-full px-3 py-1 text-sm leading-6 font-medium text-green-600 ring-1 ring-green-600">
@@ -11,18 +11,18 @@ export const TimeLine = () => {
           <p className="mt-4 text-2xl font-semibold tracking-tight text-gray-900 md:text-4xl lg:text-6xl">
             Experience Devhoks&apos;s Flows.
           </p>
-          <p className="mt-4 text-md font-medium tracking-wide text-gray-600 md:text-lg lg:text-lg">
+          <p className="mt-4 text-sm font-medium tracking-wide text-gray-600 md:text-md lg:text-lg">
             Think of our algorithm like butter on bread—smooth and effortless.
             It&apos;s that simple! Each step flows seamlessly, making meetings a
             breeze.
           </p>
         </div>
       </div>
-      <div className="px-10 md:px-24 lg:px-48 ">
-        <ol className="relative border-s border-gray-200 dark:border-gray-700">
+      <div className="px-10 md:px-24 mx-auto max-w-7xl ">
+        <ol className="relative border-s border-green-600 dark:border-green-600">
           <li className="mb-10 ms-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">
+            <div className="absolute w-3 h-3 bg-green-700 rounded-full mt-1.5 -start-1.5 border border-green-800 dark:border-green-800 dark:bg-green-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-green-600 dark:text-green-600">
               Contact
             </time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-black">
@@ -56,8 +56,8 @@ export const TimeLine = () => {
             </a>
           </li>
           <li className="mb-10 ms-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">
+            <div className="absolute w-3 h-3 bg-green-700 rounded-full mt-1.5 -start-1.5 border border-green-800 dark:border-green-800 dark:bg-green-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-green-600 dark:text-green-600">
               Meeting
             </time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-black">
@@ -71,8 +71,8 @@ export const TimeLine = () => {
             </p>
           </li>
           <li className="ms-4">
-            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">
+            <div className="absolute w-3 h-3 bg-green-700 rounded-full mt-1.5 -start-1.5 border border-green-800 dark:border-green-800 dark:bg-green-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-green-600 dark:text-green-600">
               Promise
             </time>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-black">

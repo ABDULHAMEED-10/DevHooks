@@ -17,7 +17,7 @@ const NavHamburger = () => {
       {navOpen && (
         <div>
           <div className={`ham__layout__bg ${navOpen ? "open" : ""}`}></div>
-          <div className={`ham-container ${navOpen ? "open" : ""}`}>
+          <div className={`ham-container ${navOpen ? "open" : ""} dark:bg-gray-900`}>
             <div className="flex justify-around items-center w-100 mt-4">
               <div className="navbar__left flex  gap-2">
                 <img src="/logo.png" alt="Devhoks"></img>

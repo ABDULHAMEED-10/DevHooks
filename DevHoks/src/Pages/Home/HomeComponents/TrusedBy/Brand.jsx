@@ -7,10 +7,11 @@ export default function Brand() {
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-          <p className="mt-6 text-2xl leading-8 font-semibold text-gray-900 flex justify-center items-center">
+
+          <p className="mt-6 text-2xl font-semibold text-gray-900 text-center flex justify-center items-center md:text-3xl">
           Trusted by 6,600+ Clients and Companies including
             </p>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-evenly mt-8 md:mt-10 md:mb-16">
               {brandsData.map((brand, i) => (
                 <SingleImage key={i} brand={brand} />
               ))}
@@ -25,14 +26,9 @@ export default function Brand() {
 const SingleImage = ({ brand }) => {
   const { imageSrc, altText } = brand;
   return (
-    <>
-      <div
-       
-        className="mx-10 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
-      >
-        <img src={imageSrc} alt={altText} className="h-15 w-full" />
-      </div>
-    </>
+    <div>
+      <img src={imageSrc} alt={altText} className="h-5 w-10 md:h-14 md:w-24 lg:h-20 lg:w-40" />
+    </div>
   );
 };
 

@@ -18,8 +18,8 @@ export const Caurosel = () => {
     );
   };
   return (
-    <div className="min-w-screen min-h-screen  flex items-center justify-center ">
-      <div className="w-full px-5 py-16 md:py-24 text-gray-800">
+    <div className="flex items-center justify-center ">
+      <div className="w-full px-5 text-gray-800">
         <div className="flex flex-col items-center">
           <div className="text-center w-full max-w-6xl mx-auto">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
@@ -27,15 +27,15 @@ export const Caurosel = () => {
                 Reviews of happy clients
               </div>
             </div>
-            <h1 className="text-6xl md:text-6xl font-bold mb-2   text-gray-900">
+            <h1 className="text-2xl font-bold mb-2 text-gray-900 md:text-4xl lg:text-6xl">
               What people are saying.
             </h1>
-            <h3 className="text-lg mb-5 font-light">
+            <h3 className="text-md mb-5 font-light lg:text-lg">
               See why people like you choose Devhoks
             </h3>
           </div>
 
-          <div className="relative flex items-center justify-center w-full lg:  max-w-3xl  overflow-hidden">
+          <div className="relative flex items-center justify-center w-full max-w-3xl  lg:max-w-4xl  overflow-hidden">
             <button
               className="ring-1 ring-green-700 border-none bg-green-700 text-white ml-2 p-2 text-lg text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 left-0 z-10 dark:bg-green-700 dark:text-white md:p-4 md:text-xl lg:p-4 lg:text-3xl flex items-center "
               onClick={goToPrevious}
