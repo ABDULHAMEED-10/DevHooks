@@ -2,7 +2,7 @@ import {statsData} from "../../../../demoData"
 import StatsCard from "./StatsCard";
 export const Stats = () => {
   return (
-    <div className="py-5">
+    <div className="py-10">
       <div className="mx-auto max-w-8xl px-4 lg:px-8 ">
       <div className="mx-auto max-w-2xl lg:max-w-7xl text-center">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">

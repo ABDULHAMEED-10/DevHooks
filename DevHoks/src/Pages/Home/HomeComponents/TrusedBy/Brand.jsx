@@ -3,7 +3,7 @@ import { brandsData } from "../../../../demoData";
 
 export default function Brand() {
   return (
-    <section className="bg-white pt-10 dark:bg-dark overflow-hidden">
+    <section className="bg-white py-10 dark:bg-dark overflow-hidden">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">

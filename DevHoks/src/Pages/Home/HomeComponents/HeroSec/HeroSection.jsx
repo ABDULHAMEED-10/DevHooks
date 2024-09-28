@@ -31,7 +31,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="text-center ">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-8xl ">
+            <h1 className="text-5xl font-bold tracking-tight text-gray-900 md:text-7xl lg:text-8xl">
             We Tackle Every Nech {' '}<div className="text__gradient"><Typewriter
             words={services}
             loop={0}
@@ -45,7 +45,7 @@ const HeroSection = () => {
                         
                         
                         
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-3 text-sm leading-8 text-gray-600 md:text-lg md:mt-6">
             We are Top Agency in UK with over 6,600+ Satisfied Clients over the World.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">

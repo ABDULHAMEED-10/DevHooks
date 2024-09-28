@@ -10,7 +10,7 @@ export const SpecialOffer = () => {
               SPECIAL DISCOUNTS
             </div>
           </div>
-          <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 items-center md:text-4xl lg:text-6xl">
+          <p className="mt-2 text-2xl font-bold tracking-tight text-gray-900 items-center md:text-5xl lg:text-6xl">
             Special Offers for Special People by Devhoks.
           </p>
         </div>

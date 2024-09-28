@@ -2,7 +2,7 @@ import { servicesData } from "../../../../demoData";
 import ServicesCard from "./ServicesCard";
 export const Services = () => {
   return (
-    <div className="py-10 sm:py-14 ">
+    <div className="py-10">
       <div className="mx-auto max-w-8xl px-4 lg:px-8 ">
         <div className="mx-auto text-center mb-5">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
@@ -11,7 +11,7 @@ export const Services = () => {
               
             </div>
           </div>
-          <p className="mt-2 text-2xl font-semibold tracking-tight text-gray-900 md:text-4xl lg:text-6xl">
+          <p className="mt-2 text-2xl font-semibold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
           Experience Top Services of Our Agency
           </p>
           <p className="mt-3 text-lg font-medium tracking-wide leading-8 text-gray-600">

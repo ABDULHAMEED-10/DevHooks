@@ -1,6 +1,6 @@
 export const TimeLine = () => {
   return (
-    <div>
+    <div className="py-10">
       <div className="mx-auto max-w-2xl px-4 lg:px-8 lg:max-w-6xl ">
         <div className="mx-auto text-center mb-5">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
@@ -8,7 +8,7 @@ export const TimeLine = () => {
               Thats How We Work
             </div>
           </div>
-          <p className="mt-4 text-2xl font-semibold tracking-tight text-gray-900 md:text-4xl lg:text-6xl">
+          <p className="mt-4 text-2xl font-semibold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
             Experience Devhoks&apos;s Flows.
           </p>
           <p className="mt-4 text-sm font-medium tracking-wide text-gray-600 md:text-md lg:text-lg">

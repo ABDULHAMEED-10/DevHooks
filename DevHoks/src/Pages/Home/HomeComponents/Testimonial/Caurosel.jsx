@@ -10,7 +10,7 @@ export const Caurosel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       goToNext();
-    }, 5000);
+    }, 10000);
   
     return () => clearInterval(interval);
   }, []);
@@ -30,7 +30,7 @@ export const Caurosel = () => {
     onSwipedRight: () => goToPrevious(),
   });
   return (
-    <div  {...handlers} className="flex items-center justify-center mb-20">
+    <div  {...handlers} className="flex items-center justify-center py-10">
       <div className="w-full px-5 text-gray-800">
         <div className="flex flex-col items-center">
           <div className="text-center w-full max-w-6xl mx-auto">
@@ -39,7 +39,7 @@ export const Caurosel = () => {
                 Reviews of happy clients
               </div>
             </div>
-            <h1 className="text-2xl font-bold mb-2 text-gray-900 md:text-4xl lg:text-6xl">
+            <h1 className="text-2xl font-bold mb-2 text-gray-900 md:text-5xl lg:text-6xl">
               What people are saying.
             </h1>
             <h3 className="text-md mb-5 font-light lg:text-lg">
@@ -47,9 +47,10 @@ export const Caurosel = () => {
             </h3>
           </div>
 
-          <div className="relative flex items-center justify-center w-full max-w-3xl  lg:max-w-4xl  overflow-hidden">
+          <div className="relative flex items-center justify-center w-full max-w-2xl  lg:max-w-3xl p-3 overflow-hidden">
+            
             <button
-              className="ring-1 ring-green-700 border-none bg-green-700 text-white ml-2 p-2 text-lg text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 left-0 z-10 dark:bg-green-700 dark:text-white md:p-4 md:text-xl lg:p-4 lg:text-3xl flex items-center "
+              className="border-none bg-gray-200 text-gray-500 ml-2 p-3 text-xl md:p-4 md:text-2xl lg:p-5 lg:text-4xl text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 left-0 z-10 dark:bg-gray-200 dark:text-gray-500 flex items-center "
               onClick={goToPrevious}
             >
               &#8249;
@@ -60,7 +61,7 @@ export const Caurosel = () => {
             </div>
 
             <button
-              className="ring-1 ring-green-700 border-none bg-green-700 text-white mr-2  p-2 text-lg text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 right-0 z-10 dark:bg-green-700  md:p-4 md:text-xl lg:p-4 lg:text-3xl flex items-center"
+              className="border-none bg-gray-200 text-gray-500 mr-2  p-3 text-xl md:p-4 md:text-2xl lg:p-5 lg:text-4xl text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 right-0 z-10 dark:bg-gray-200 dark:text-gray-500  flex items-center"
               onClick={goToNext}
             >
               &#8250;
