@@ -7,7 +7,7 @@ export const CaurosalCard = ({prop}) => {
           <img src={prop.pic} alt="pic"></img>
         </div>
         <div className="flex-grow pl-3">
-          <h6 className="font-bold text-green-700 text-lg uppercase text-gray-100 ">
+          <h6 className="font-bold text-lg uppercase text-gray-100 ">
             {prop.name}
           </h6>
         </div>
