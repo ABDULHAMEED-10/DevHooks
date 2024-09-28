@@ -42,7 +42,7 @@ export const Caurosel = () => {
             <h1 className="text-3xl font-bold mb-2 text-gray-900 md:text-5xl lg:text-6xl">
               What people are saying.
             </h1>
-            <h3 className="text-lg mb-5 font-light ">
+            <h3 className="text-md mb-5 font-light md:text-lg">
               See why people like you choose Devhoks
             </h3>
           </div>
