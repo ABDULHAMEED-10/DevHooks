@@ -31,7 +31,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="text-center ">
-            <h1 className="text-5xl font-bold tracking-tight text-gray-900 md:text-7xl lg:text-8xl">
+            <h1 className="text-6xl font-bold tracking-tight text-gray-900 md:text-7xl lg:text-8xl">
             We Tackle Every Nech {' '}<div className="text__gradient"><Typewriter
             words={services}
             loop={0}

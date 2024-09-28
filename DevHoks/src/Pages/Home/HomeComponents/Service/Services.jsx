@@ -11,7 +11,7 @@ export const Services = () => {
               
             </div>
           </div>
-          <p className="mt-2 text-2xl font-semibold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
+          <p className="mt-2 text-3xl font-semibold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
           Experience Top Services of Our Agency
           </p>
           <p className="mt-3 text-lg font-medium tracking-wide leading-8 text-gray-600">

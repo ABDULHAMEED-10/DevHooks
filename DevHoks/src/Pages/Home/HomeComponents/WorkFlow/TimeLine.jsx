@@ -8,7 +8,7 @@ export const TimeLine = () => {
               Thats How We Work
             </div>
           </div>
-          <p className="mt-4 text-2xl font-semibold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
+          <p className="mt-4 text-3xl font-semibold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
             Experience Devhoks&apos;s Flows.
           </p>
           <p className="mt-4 text-sm font-medium tracking-wide text-gray-600 md:text-md lg:text-lg">
@@ -21,7 +21,7 @@ export const TimeLine = () => {
       <div className="px-10 md:px-24 mx-auto max-w-7xl ">
         <ol className="relative border-s border-green-600 dark:border-green-600">
           <li className="mb-10 ms-4">
-            <div className="absolute w-3 h-3 bg-green-700 rounded-full mt-1.5 -start-1.5 border border-green-800 dark:border-green-800 dark:bg-green-700"></div>
+            <div className="absolute w-3 h-3 bg-green-700 rounded-full mt-1.5 -start-1.5 border-none dark:bg-green-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-green-600 dark:text-green-600">
               Contact
             </time>
@@ -56,7 +56,7 @@ export const TimeLine = () => {
             </a>
           </li>
           <li className="mb-10 ms-4">
-            <div className="absolute w-3 h-3 bg-green-700 rounded-full mt-1.5 -start-1.5 border border-green-800 dark:border-green-800 dark:bg-green-700"></div>
+            <div className="absolute w-3 h-3 bg-green-700 rounded-full mt-1.5 -start-1.5 border-none dark:bg-green-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-green-600 dark:text-green-600">
               Meeting
             </time>
@@ -71,7 +71,7 @@ export const TimeLine = () => {
             </p>
           </li>
           <li className="ms-4">
-            <div className="absolute w-3 h-3 bg-green-700 rounded-full mt-1.5 -start-1.5 border border-green-800 dark:border-green-800 dark:bg-green-700"></div>
+            <div className="absolute w-3 h-3 bg-green-700 rounded-full mt-1.5 -start-1.5 border-none dark:bg-green-700"></div>
             <time className="mb-1 text-sm font-normal leading-none text-green-600 dark:text-green-600">
               Promise
             </time>
