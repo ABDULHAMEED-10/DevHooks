@@ -31,7 +31,7 @@ export const Caurosel = () => {
   });
   return (
     <div  {...handlers} className="flex items-center justify-center py-10">
-      <div className="w-full px-5 text-gray-800">
+      <div className="w-full px-2 text-gray-800">
         <div className="flex flex-col items-center">
           <div className="text-center w-full max-w-6xl mx-auto">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
@@ -47,7 +47,7 @@ export const Caurosel = () => {
             </h3>
           </div>
 
-          <div className="relative flex items-center justify-center w-full max-w-2xl  lg:max-w-3xl p-3 overflow-hidden">
+          <div className="relative flex items-center justify-center w-full max-w-2xl  lg:max-w-3xl px-3 overflow-hidden">
             
             <button
               className="border-none bg-gray-200 text-gray-500 ml-2 p-3 text-xl md:p-4 md:text-2xl lg:p-5 lg:text-4xl text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 left-0 z-10 dark:bg-gray-200 dark:text-gray-500 flex items-center "

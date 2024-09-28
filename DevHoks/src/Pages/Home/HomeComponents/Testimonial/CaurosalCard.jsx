@@ -1,7 +1,7 @@
 import propTypes from "prop-types";
 export const CaurosalCard = ({prop}) => {
   return (
-    <div className="w-full mx-auto rounded-2xl bg-gray-100 border-none p-5  dark:bg-gray-100">
+    <div className="w-full rounded-2xl bg-gray-100 border-none p-5 dark:bg-gray-100">
       <div className="w-full flex mb-4 items-center">
         <div className="overflow-hidden rounded-full bg-gray-50 border border-gray-200">
           <img src={prop.pic} alt="pic"></img>
