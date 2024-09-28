@@ -2,7 +2,7 @@
 export const Connect = () => {
   return (
       <div className="py-10 mx-auto w-full max-w-6xl">
-      <div className="mx-3 md:mx-0 p-8 bg-green-700 border border-gray-200 rounded-3xl">
+      <div className="mx-2 md:mx-0 p-8 bg-green-700 border border-gray-200 rounded-3xl">
         <div className="mt-3">
         <span className="text-2xl font-bold text-gray-100 md:text-3xl lg:text-4xl">
             Lets try our service now!

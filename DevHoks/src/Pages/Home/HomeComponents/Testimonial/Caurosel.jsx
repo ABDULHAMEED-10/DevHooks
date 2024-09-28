@@ -31,7 +31,7 @@ export const Caurosel = () => {
   });
   return (
     <div  {...handlers} className="flex items-center justify-center py-10">
-      <div className="w-full px-2 text-gray-800">
+      <div className="w-full px-1 text-gray-800">
         <div className="flex flex-col items-center">
           <div className="text-center w-full max-w-6xl mx-auto">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
