@@ -18,7 +18,7 @@ export const Caurosel = () => {
     );
   };
   return (
-    <div className="flex items-center justify-center ">
+    <div className="flex items-center justify-center mb-20">
       <div className="w-full px-5 text-gray-800">
         <div className="flex flex-col items-center">
           <div className="text-center w-full max-w-6xl mx-auto">
@@ -43,7 +43,7 @@ export const Caurosel = () => {
               &#8249;
             </button>
 
-            <div className="flex items-cetner justify-cetner transition-transform duration-500 ease-in-out w-full ">
+            <div className="flex items-cetner justify-cetner w-full ">
               <CaurosalCard prop={reviewsData[currentIndex]} />
             </div>
 

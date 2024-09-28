@@ -22,7 +22,7 @@ const Home = () => {
                 <SpecialOffer />
                 <Stats />
                 <Caurosel />
-                <Connect />
+                {/* <Connect /> */}
                 
         </Layout>
         </div>
