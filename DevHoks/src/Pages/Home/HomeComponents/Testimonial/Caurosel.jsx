@@ -2,10 +2,18 @@ import "./../Home.css";
 import { reviewsData } from "../../../../demoData";
 import CaurosalCard from "./CaurosalCard";
 import  { useState } from "react";
+import { useSwipeable } from 'react-swipeable';
+import { useEffect } from "react";
 
 export const Caurosel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
+  useEffect(() => {
+    const interval = setInterval(() => {
+      goToNext();
+    }, 5000);
+  
+    return () => clearInterval(interval);
+  }, []);
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? reviewsData.length - 1 : prevIndex - 1
@@ -17,8 +25,12 @@ export const Caurosel = () => {
       prevIndex === reviewsData.length - 1 ? 0 : prevIndex + 1
     );
   };
+  const handlers = useSwipeable({
+    onSwipedLeft: () => goToNext(),
+    onSwipedRight: () => goToPrevious(),
+  });
   return (
-    <div className="flex items-center justify-center mb-20">
+    <div  {...handlers} className="flex items-center justify-center mb-20">
       <div className="w-full px-5 text-gray-800">
         <div className="flex flex-col items-center">
           <div className="text-center w-full max-w-6xl mx-auto">
@@ -61,3 +73,4 @@ export const Caurosel = () => {
 };
 
 export default Caurosel;
+
