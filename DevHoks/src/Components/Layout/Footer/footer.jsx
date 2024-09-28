@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="dark:bg-gray-900">
+    <footer className="bg-gray-100 dark:bg-gray-900">
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-8">
           <div className="text-teal-600 dark:text-teal-300">
@@ -37,7 +37,7 @@ const Footer = () => {
                     type="email"
                     id="UserEmail"
                     placeholder="username@gmail.com"
-                    className="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm dark:bg-gray-900 dark:text-white"
+                    className="w-full border focus:border-gray-100 focus:ring-gray-100 sm:text-sm bg-gray-100 dark:bg-gray-900 dark:text-white"
                   />
 
                   <button className="mt-1 w-full bg-green-700 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-green-800 sm:mt-0 sm:w-auto sm:shrink-0">
