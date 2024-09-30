@@ -1,8 +1,9 @@
 import "./../Home.css";
-import { reviewsData } from "../../../../demoData";
+import { reviewsData, titleParaInfo } from "../../../../demoData";
+import TitleAndPara from "../TitleAndPara";
 import CaurosalCard from "./CaurosalCard";
-import  { useState } from "react";
-import { useSwipeable } from 'react-swipeable';
+import { useState } from "react";
+import { useSwipeable } from "react-swipeable";
 import { useEffect } from "react";
 
 export const Caurosel = () => {
@@ -11,7 +12,7 @@ export const Caurosel = () => {
     const interval = setInterval(() => {
       goToNext();
     }, 10000);
-  
+
     return () => clearInterval(interval);
   }, []);
   const goToPrevious = () => {
@@ -30,49 +31,45 @@ export const Caurosel = () => {
     onSwipedRight: () => goToPrevious(),
   });
   return (
-    <div  {...handlers} className="flex items-center justify-center py-10">
-      <div className="w-full px-1 text-gray-800">
+    <div {...handlers} className="flex flex-col items-center py-10">
+      <div className="w-full mx-auto max-w-8xl px-4 lg:px-8 ">
+        <TitleAndPara prop={titleParaInfo[4]} />
+      </div>
         <div className="flex flex-col items-center">
-          <div className="text-center w-full max-w-6xl mx-auto">
-            <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
-              <div className="relative rounded-full px-3 py-1 text-sm leading-6 font-medium text-green-600 ring-1 ring-green-600 uppercase">
-                Reviews of happy clients
-              </div>
-            </div>
-            <h1 className="text-3xl font-bold mb-2 text-gray-900 md:text-5xl lg:text-6xl">
-              What people are saying.
-            </h1>
-          
-            <h3 className="text-lg mb-5 mt-3 font-medium tracking-wide leading-8 text-gray-600">
-              See why people like you choose Devhoks
-            </h3>
-          </div>
-
-          <div className="relative flex items-center justify-center w-full max-w-2xl  lg:max-w-3xl px-3 overflow-hidden">
-            
+          <div className="relative flex items-center justify-center w-full max-w-2xl lg:max-w-3xl px-3 overflow-hidden">
             <button
-              className="border-none bg-gray-200 text-gray-500 ml-2 p-3 text-xl md:p-4 md:text-2xl lg:p-5 lg:text-4xl text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 left-0 z-10 dark:bg-gray-200 dark:text-gray-500 flex items-center "
+              className="hidden md:flex border-none bg-gray-200 text-gray-500 ml-2 p-3 text-xl md:p-4 md:text-2xl lg:p-5 lg:text-4xl text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 left-0 z-10 dark:bg-gray-200 dark:text-gray-500 items-center"
               onClick={goToPrevious}
             >
               &#8249;
             </button>
 
-            <div className="flex items-cetner justify-cetner w-full ">
+            <div className="flex items-center justify-center w-full">
               <CaurosalCard prop={reviewsData[currentIndex]} />
             </div>
 
             <button
-              className="border-none bg-gray-200 text-gray-500 mr-2  p-3 text-xl md:p-4 md:text-2xl lg:p-5 lg:text-4xl text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 right-0 z-10 dark:bg-gray-200 dark:text-gray-500  flex items-center"
+              className="hidden md:flex border-none bg-gray-200 text-gray-500 mr-2 p-3 text-xl md:p-4 md:text-2xl lg:p-5 lg:text-4xl text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 right-0 z-10 dark:bg-gray-200 dark:text-gray-500 items-center"
               onClick={goToNext}
             >
               &#8250;
             </button>
+            <div className="absolute bottom-0 flex justify-center w-full pb-3">
+              {reviewsData.map((_, index) => (
+                <div
+                  onClick={() => setCurrentIndex(index)}
+                  key={index}
+                  className={`h-2 w-2 mx-1 rounded-full ${
+                    index === currentIndex ? "bg-black" : "bg-gray-400"
+                  }`}
+                ></div>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      
     </div>
   );
 };
 
 export default Caurosel;
-

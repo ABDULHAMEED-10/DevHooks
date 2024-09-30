@@ -1,23 +1,10 @@
+import TitleAndPara from "../TitleAndPara";
+import { titleParaInfo } from "../../../../demoData";
 export const TimeLine = () => {
   return (
     <div className="py-10">
       <div className="mx-auto max-w-2xl px-4 lg:px-8 lg:max-w-6xl ">
-        <div className="mx-auto text-center mb-5">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
-            <div className="relative uppercase rounded-full px-3 py-1 text-sm leading-6 font-medium text-green-600 ring-1 ring-green-600">
-              Thats How We Work
-            </div>
-          </div>
-          <h1 className="mt-4 text-3xl font-semibold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
-            Experience Devhoks&apos;s Flows.
-          </h1>
-          
-          <h3 className="mt-4 text-sm font-medium tracking-wide text-gray-600 md:text-md lg:text-lg">
-            Think of our algorithm like butter on bread—smooth and effortless.
-            It&apos;s that simple! Each step flows seamlessly, making meetings a
-            breeze.
-          </h3>
-        </div>
+        <TitleAndPara prop={titleParaInfo[1]} />
       </div>
       <div className="px-10 md:px-24 mx-auto max-w-7xl ">
         <ol className="relative border-s border-green-600 dark:border-green-600">

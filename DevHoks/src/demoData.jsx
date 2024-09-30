@@ -189,5 +189,38 @@ const statsData = [
     title: "Orders in Queue",
   },
   
-]
-export { servicestype, brandsData, servicesData,discountData,reviewsData,statsData };
+];
+
+const titleParaInfo = [
+  {
+    id: 1,
+    title: "Top Featured Services",
+    heading: "Experience Top Services of Our Agency",
+    description: "These are the Special services of Devhoks,Guaranteed Satisfaction and Professionalism.",
+  },
+  {
+    id: 2,
+    title: "Thats How We Work",
+    heading: "Experience Devhoks's Flows",
+    description:"Think of our algorithm like butter on bread—smooth and effortless. It's that simple! Each step flows seamlessly, making meetings a breeze."
+  },
+  {
+    id: 3,
+    title: "SPECIAL DISCOUNTS",
+    heading: "Special Offers for Special People by Devhoks",
+    description:"Get the Best Offers and Discounts on our Services."
+  },
+  {
+    id: 4,
+    title: "Why People Choose Us",
+    heading: "Why Choose Devhoks Over Others",
+    description:"With over 1 million agencies out there, here's what sets us apart and keeps clients winning."
+  },
+  {
+    id: 5,
+    title: "Our Happy Clients",
+    heading: "What Our Clients Say About Us",
+    description:"Our clients are our biggest supporters. Take a look for yourself in the testimonials."
+  }  
+];
+export { servicestype, brandsData, servicesData,discountData,reviewsData,statsData,titleParaInfo };

@@ -1,22 +1,11 @@
 import DiscountCard from "./SpecialOfferCard";
-import { discountData } from "../../../../demoData";
+import { discountData, titleParaInfo } from "../../../../demoData";
+import TitleAndPara from "../TitleAndPara";
 export const SpecialOffer = () => {
   return (
     <div className="bg-white py-10 sm:py-14 ">
       <div className="mx-auto max-w-8xl px-4 lg:px-8 ">
-        <div className="mx-auto max-w-2xl text-center mb-5 lg:max-w-7xl">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center sm:items-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 font-medium text-green-600 ring-1 ring-green-600">
-              SPECIAL DISCOUNTS
-            </div>
-          </div>
-          <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 items-center md:text-5xl lg:text-6xl">
-            Special Offers for Special People by Devhoks.
-          </h1>
-          <h3 className="mt-3 text-lg font-medium tracking-wide leading-8 text-gray-600">
-            Get the Best Offers and Discounts on our Services
-          </h3>
-        </div>
+        <TitleAndPara prop={titleParaInfo[2]} />
         <div className="flex flex-col lg:flex-row  items-center justify-center gap-2">
           {discountData.map((service, i) => (
             <div
