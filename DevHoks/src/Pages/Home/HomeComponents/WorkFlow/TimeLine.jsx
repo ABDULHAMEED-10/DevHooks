@@ -8,14 +8,15 @@ export const TimeLine = () => {
               Thats How We Work
             </div>
           </div>
-          <p className="mt-4 text-3xl font-semibold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
+          <h1 className="mt-4 text-3xl font-semibold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
             Experience Devhoks&apos;s Flows.
-          </p>
-          <p className="mt-4 text-sm font-medium tracking-wide text-gray-600 md:text-md lg:text-lg">
+          </h1>
+          
+          <h3 className="mt-4 text-sm font-medium tracking-wide text-gray-600 md:text-md lg:text-lg">
             Think of our algorithm like butter on bread—smooth and effortless.
             It&apos;s that simple! Each step flows seamlessly, making meetings a
             breeze.
-          </p>
+          </h3>
         </div>
       </div>
       <div className="px-10 md:px-24 mx-auto max-w-7xl ">
@@ -28,7 +29,7 @@ export const TimeLine = () => {
             <h3 className="text-lg font-semibold text-gray-900 dark:text-black">
               Quick Text
             </h3>
-            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-500">
+            <p className="mb-4 text-base font-light text-gray-500 dark:text-gray-500">
               Submit your query on our official Whatsapp Handle. Our agents will
               connect you with tech experts to discuss your needs, recommend
               solutions, and show you ways to boost your business.

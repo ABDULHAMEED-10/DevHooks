@@ -10,7 +10,7 @@ export const Connect = () => {
         </div>
         <div className="mt-3 flex flex-col items-center justify-between gap-3 md:flex-row">
           <div>
-          <p className="text-sm lg:text-md font-medium tracking-wide text-gray-300 ">
+          <p className="text-sm lg:text-md font-light tracking-wide text-gray-300 ">
             We are always excited to connect with talented individuals and innovative companies. Whether you have a question, a project proposal, or just want to say hello, feel free to reach out to us. Our team is dedicated to providing the best support and collaboration opportunities. Let&apos;s work together to create something amazing!
           </p>
         </div>

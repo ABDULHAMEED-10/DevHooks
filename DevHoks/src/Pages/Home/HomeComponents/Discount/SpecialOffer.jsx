@@ -10,9 +10,12 @@ export const SpecialOffer = () => {
               SPECIAL DISCOUNTS
             </div>
           </div>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 items-center md:text-5xl lg:text-6xl">
+          <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 items-center md:text-5xl lg:text-6xl">
             Special Offers for Special People by Devhoks.
-          </p>
+          </h1>
+          <h3 className="mt-3 text-lg font-medium tracking-wide leading-8 text-gray-600">
+            Get the Best Offers and Discounts on our Services
+          </h3>
         </div>
         <div className="flex flex-col lg:flex-row  items-center justify-center gap-2">
           {discountData.map((service, i) => (

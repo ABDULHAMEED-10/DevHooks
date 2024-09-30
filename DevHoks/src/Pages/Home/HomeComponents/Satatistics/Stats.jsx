@@ -10,13 +10,14 @@ export const Stats = () => {
               Why People Choose Us
             </div>
           </div>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 items-center md:text-4xl lg:text-6xl">
-            Over 6,600+ satisfied customers!
-          </p>
-          <p className="mt-2 text-sm font-medium tracking-nomral text-gray-900 items-center lg:text-lg ">
+          <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 items-center md:text-4xl lg:text-6xl">
+            Over 600+ satisfied customers!
+          </h1>
+      
+          <h3 className="mt-3 text-lg font-medium tracking-wide leading-8 text-gray-600 items-center">
             With over 1 million agencies out there, here&apos;s what sets us
             apart and keeps clients winning
-          </p>
+          </h3>
        
         </div>
         </div>

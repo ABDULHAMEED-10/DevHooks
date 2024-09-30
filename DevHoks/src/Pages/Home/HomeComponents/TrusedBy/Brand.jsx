@@ -8,7 +8,7 @@ export default function Brand() {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
 
-          <p className="mt-6 text-3xl font-semibold text-gray-900 text-center flex justify-center items-center md:text-5xl lg:text-6xl">
+          <p className="mt-6 text-3xl font-semibold text-gray-900 text-center flex justify-center items-center md:text-4xl lg:text-5xl">
           Trusted by 6,600+ Clients and Companies including
             </p>
             <div className="flex items-center justify-evenly mt-8 md:mt-10 md:mb-16">

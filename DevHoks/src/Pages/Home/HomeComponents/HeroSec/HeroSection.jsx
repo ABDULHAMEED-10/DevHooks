@@ -46,7 +46,7 @@ const HeroSection = () => {
                         
                         
             <p className="mt-3 text-sm leading-8 text-gray-600 md:text-lg md:mt-6">
-            We are Top Agency in UK with over 6,600+ Satisfied Clients over the World.
+            We are Top Agency in UK with over 600+ Satisfied Clients over the World.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
