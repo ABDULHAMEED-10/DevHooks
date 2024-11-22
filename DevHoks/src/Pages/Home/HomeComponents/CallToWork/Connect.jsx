@@ -17,7 +17,7 @@ export const Connect = () => {
         </div>
           <div className="">
           <a
-            href="#"
+            href="https://wa.me/+923000713825"
             className="inline-block px-6 py-1.5 text-lg font-semibold text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-100 hover:text-gray-900 transition duration-300"
           >
             Contact
