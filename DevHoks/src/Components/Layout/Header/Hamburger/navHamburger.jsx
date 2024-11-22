@@ -61,7 +61,7 @@ const NavHamburger = () => {
                 <a href="https://twitter.com/devhoks" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-twitter icon"></i>
                 </a>
-                <a href="https://facebook.com/devhoks" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/profile.php?id=61569390263675&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-facebook-f icon"></i>
                 </a>
                 <a href="https://instagram.com/devhoks.official" target="_blank" rel="noopener noreferrer">
