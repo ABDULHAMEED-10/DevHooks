@@ -62,7 +62,7 @@ const HeroSection = () => {
               </a>
               <span className="text-gray-500">OR</span>
               <a
-                href="#"
+                href="mailto: abdulhameed000650@gmail.com"
                 className="rounded-md ring-1 ring-green-700 px-3.5 py-2.5 text-md font-semibold text-green-700 hover:bg-green-700 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800"
               >
                 <i className="fa-solid fa-headset pr-2"></i>
