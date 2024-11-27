@@ -1,33 +1,54 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-button{
-    background-color: transparent;
-    color: var(--green-hover-color);
-    border: 1px solid var(--green-hover-color);
-    padding: 0.5rem 1.5rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-weight: bold;
-    font-size: clamp(0.5rem, 0.4937rem + 2.0253vw, 1rem);
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
+button {
+  background-color: transparent;
+  color: var(--green-hover-color);
+  border: 1px solid var(--green-hover-color);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  font-size: clamp(0.5rem, 0.4937rem + 2.0253vw, 1rem);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
 }
-button:hover{
-    background-color: var(--green-hover-color);
-    color: white
+button:hover {
+  background-color: var(--green-hover-color);
+  color: white;
 }
-body{
-    font-family: var(--popins-font-fmaily)
+body {
+  font-family: var(--popins-font-fmaily);
 }
 /* p,span,li, a{
     font-family: var(--body-font-fmaily)
 } */
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 18px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #047857; /* Scrollbar thumb color (green-700) */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+  border: 3px solid #f1f1f1; /* Adds a border around the scrollbar thumb */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #047857 #f1f1f1;
+}
