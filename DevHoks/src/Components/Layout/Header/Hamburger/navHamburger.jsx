@@ -47,19 +47,19 @@ const NavHamburger = () => {
             <footer className="text-white flex flex-col gap-3 w-100 mt-8  px-4 footer__wrapper">
               <div className="flex gap-3 items-center email">
                 <i className="fa-solid fa-envelope"></i>
-                <a href="mailto:info@devhoks.org">info@devhoks.org</a>
+                <a href="mailto:abdulhameed000650@gmail.com">info@devhoks.org</a>
               </div>
 
               <div className="flex gap-3 items-center phone">
                 <i className="fa-solid fa-phone-flip"></i>
-                <a href="tel:+923000713725">+92-3000713725</a>
+                <a href="tel:+923000713825">+923000713825</a>
               </div>
               
               <div className="flex flex-row items-center gap-4 mt-2 social">
                 <a href="https://twitter.com/devhoks" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-twitter icon"></i>
                 </a>
-                <a href="https://facebook.com/devhoks" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/profile.php?id=61569390263675&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-facebook-f icon"></i>
                 </a>
                 <a href="https://instagram.com/devhoks.official" target="_blank" rel="noopener noreferrer">

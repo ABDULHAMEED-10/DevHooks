@@ -55,14 +55,14 @@ const HeroSection = () => {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="https://wa.me/+923000713825"
                 className="rounded-md bg-gray-900 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800"
               >
                 Contact Now
               </a>
               <span className="text-gray-500">OR</span>
               <a
-                href="#"
+                href="mailto: abdulhameed000650@gmail.com"
                 className="rounded-md ring-1 ring-green-700 px-3.5 py-2.5 text-md font-semibold text-green-700 hover:bg-green-700 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800"
               >
                 <i className="fa-solid fa-headset pr-2"></i>
