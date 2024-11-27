@@ -28,3 +28,6 @@ button:hover{
 body{
     font-family: var(--popins-font-fmaily)
 }
+/* p,span,li, a{
+    font-family: var(--body-font-fmaily)
+} */

@@ -10,17 +10,17 @@ import test4 from "../src/assets/tes-1-4.jpg";
 const servicestype = [
   {
     id: 1,
-    to: "/service/web-development",
+    to: "/service/webDevelopment",
     title: "Web Development",
   },
   {
     id: 2,
-    to: "/service/app-development",
+    to: "/service/mobileDevelopment",
     title: "App Development",
   },
   {
     id: 3,
-    to: "/service/ui-ux-designing",
+    to: "/service/uiux",
     title: "UI/UX Designing",
   },
   {
@@ -30,12 +30,12 @@ const servicestype = [
   },
   {
     id: 5,
-    to: "/service/digital-marketing",
+    to: "/service/digitalMarketing",
     title: "Digital Marketing",
   },
   {
     id: 6,
-    to: "/service/branding",
+    to: "/service/socialMedia",
     title: "Branding",
   },
 ];

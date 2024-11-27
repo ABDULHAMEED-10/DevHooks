@@ -1,13 +1,14 @@
-import Layout from "../../Components/Layout";
+import Description from "./AboutComponents/Description";
 
 const About = () => {
     return (
-        <Layout>
-            <div>
-            <h1>About Us</h1>
-        </div>
-        </Layout>
+        <div>
+            
+        <Description /> 
+       
+      </div>
     );
 };
 
 export default About;
+

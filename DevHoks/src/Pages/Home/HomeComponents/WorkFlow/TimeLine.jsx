@@ -16,7 +16,7 @@ export const TimeLine = () => {
             <h3 className="text-lg font-semibold text-gray-900 dark:text-black">
               Quick Text
             </h3>
-            <p className="mb-4 text-base font-light text-gray-500 dark:text-gray-500">
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-500">
               Submit your query on our official Whatsapp Handle. Our agents will
               connect you with tech experts to discuss your needs, recommend
               solutions, and show you ways to boost your business.
@@ -51,7 +51,7 @@ export const TimeLine = () => {
             <h3 className="text-lg font-semibold text-gray-900 dark:text-black">
               Insights & Action Planning Session
             </h3>
-            <p className="text-base font-normal text-gray-500 dark:text-gray-500">
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-500">
               During your meeting, our team of tech experts will gain a
               comprehensive understanding of your problem or idea. They will
               then develop the best possible solutions and demonstrate a clear
@@ -66,6 +66,7 @@ export const TimeLine = () => {
             <h3 className="text-lg font-semibold text-gray-900 dark:text-black">
               Proposal and Execution
             </h3>
+          
             <p className="text-base font-normal text-gray-500 dark:text-gray-500">
               Once you choose our customized proposal to unlock success for your
               business, we&apos;ll maintain close communication every step of

@@ -4,7 +4,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900">
+    <footer className="">
+      <div className="bg-gray-100 dark:bg-gray-900">
+
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-8">
           <div className="text-teal-600 dark:text-teal-300">
@@ -362,7 +364,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        </div>
       </div>
+        
     </footer>
   );
 };

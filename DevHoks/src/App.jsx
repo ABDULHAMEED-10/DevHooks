@@ -1,28 +1,78 @@
 /* eslint-disable no-unused-vars */
 import './App.css'
 import React from 'react'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import 'react-chatbot-kit/build/main.css'
 import HomePage from './Pages/Home/home'
 import AboutUs from './Pages/About/about'
-import Career from './Pages/Careers/careers'
 import Contact from './Pages/Contact/contact'
-import Events from './Pages/Events/events'
 import Projects from './Pages/Projects/projects'
 import Services from './Pages/Services/services'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Layout from './Components/Layout';
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "/about",
+        element: <AboutUs />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
+      },
+      {
+        path: "/services",
+        element: <Services />,
+      },
+      {
+        path: "/service/webDevelopment",
+        element: <Services />,
+      },
+      {
+        path: "/service/mobileDevelopment",
+        element: <Services />,
+      },
+      {
+        path: "/service/branding",
+        element: <Services />,
+      },
+      {
+        path: "/service/seo",
+        element: <Services />,
+      },
+      {
+        path: "/service/socialMedia",
+        element: <Services />,
+      },
+      {
+        path: "/service/uiux",
+        element: <Services />,
+      },
+      {
+        path: "/service/digitalMarketing",
+        element: <Services />,
+      }
+    ]
+  },
+  
+]);
 function App() {
   return (
     <div>
-     <Router>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/career" element={<Career />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/services" element={<Services />} />
-        </Routes>
-      </Router>
+      <RouterProvider router={router} />
     </div>
   )
 }

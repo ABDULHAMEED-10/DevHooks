@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars */
-import Layout from '../../Components/Layout';
 import React from 'react'
 import MetaData from '../../Components/MataData';
 import HeroSection from './HomeComponents/HeroSec/HeroSection';
@@ -14,7 +13,6 @@ const Home = () => {
     return (
         <div>
         <MetaData title="Home" />
-        <Layout>
                 <HeroSection />
                 <Brand />
                 <Services />
@@ -23,8 +21,6 @@ const Home = () => {
                 <Stats />
                 <Caurosel />
                 <Connect />
-                
-        </Layout>
         </div>
     );
 };

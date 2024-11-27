@@ -2,48 +2,64 @@
 import Footer from "./Layout/Footer/footer";
 import Navbar from "./Layout/Header/navbar";
 import React from "react";
-import PropTypes from "prop-types";
-import BeatLoader from "react-spinners/BeatLoader";
-const Layout = ({children}) => {
-  const [loading, setLoading] = React.useState(true);
+import Chatbot from 'react-chatbot-kit'
+import config from '../Components/ChatBot/config.js';
+import MessageParser from '../Components/ChatBot/MessageParser.jsx';
+import ActionProvider from '../Components/ChatBot/ActionProvider.jsx';
+import { Outlet } from "react-router"
 
-  React.useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 2000);
+const Layout = () => {
+  const [isChatbotVisible, setIsChatbotVisible] = React.useState(false);
 
-    return () => clearTimeout(timer);
-  }, [setLoading]);
-
-  if (loading) {
-    return (
-      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
-        <BeatLoader
-          color="#00a84e"
-          cssOverride={{
-            borderColor: "#00a84e",
-            zIndex: 9999,
-          }}
-          loading
-          margin={0}
-          size={48}
-          speedMultiplier={1}
-        />
-      </div>
-    );
-  }
+  const toggleChatbot = () => {
+    setIsChatbotVisible(!isChatbotVisible);
+  };
 
   return (
     <div>
       <Navbar />
-      {children}
+      <Outlet />
       <Footer />
+      
+      <div 
+        className={`fixed bottom-5 right-5 bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center cursor-pointer ${isChatbotVisible ? '' : 'pulse-animation'}`} 
+        onClick={toggleChatbot}
+      >
+        <style>
+          {`
+            @keyframes pulse {
+              0% {
+                transform: scale(1);
+              }
+              50% {
+                transform: scale(1.2);
+              }
+              100% {
+                transform: scale(1);
+              }
+            }
+            .pulse-animation {
+              animation: pulse 1.5s infinite;
+            }
+          `}
+        </style>
+    
+        <i className="fas fa-headset"></i>
+      </div>
+     
+      {isChatbotVisible && (
+        <div className="chat-bot fixed bottom-32 right-20 w-62 h-96 bg-white border border-gray-300 rounded-lg shadow-lg">
+          <Chatbot
+            config={config}
+            messageParser={MessageParser}
+            actionProvider={ActionProvider}
+          />
+        </div>
+      )}
     </div>
   );
 };
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
+
 
 export default Layout;

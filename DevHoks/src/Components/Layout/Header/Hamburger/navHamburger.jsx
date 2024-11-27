@@ -8,7 +8,7 @@ const NavHamburger = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <div className="navhamburger">
+    <div className="navhamburger fixed right-0 top-9 z-20  ">  
       <i
         className="fa-solid fa-bars ham-icon"
         onClick={() => setNavOpen(true)}
@@ -17,9 +17,9 @@ const NavHamburger = () => {
       {navOpen && (
         <div>
           <div className={`ham__layout__bg ${navOpen ? "open" : ""}`}></div>
-          <div className={`ham-container ${navOpen ? "open" : ""} dark:bg-gray-900`}>
+          <div className={`ham-container ${navOpen ? "open" : ""} dark:bg-gray-900 fixed right-0 top-0`}>
             <div className="flex justify-around items-center w-100 mt-4">
-              <div className="navbar__left flex  gap-2">
+              <div className="navbar__left flex gap-2">
                 <img src="/logo.png" alt="Devhoks"></img>
                 <NavLink
                   to="/"
@@ -40,13 +40,11 @@ const NavHamburger = () => {
                 <HamComponents toward="" nam="HOME" />
                 <HamServicesComponent />
                 <HamComponents toward="projects" nam="PROJECTS" />
-                <HamComponents toward="career" nam="CAREERS" />
-                <HamComponents toward="events" nam="EVENTS" />
                 <HamComponents toward="about" nam="ABOUT" />
               </ul>
             </div>
 
-            <footer className="text-white flex flex-col gap-3 w-100 mt-24 px-4 footer__wrapper">
+            <footer className="text-white flex flex-col gap-3 w-100 mt-8  px-4 footer__wrapper">
               <div className="flex gap-3 items-center email">
                 <i className="fa-solid fa-envelope"></i>
                 <a href="mailto:info@devhoks.org">info@devhoks.org</a>
