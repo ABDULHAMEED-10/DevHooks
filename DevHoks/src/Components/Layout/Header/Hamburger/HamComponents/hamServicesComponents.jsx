@@ -11,7 +11,6 @@ export const HamServicesComponent = () => {
         className="services-main"
         onClick={() => setServicesOpen(!servicesOpen)}
       >
-        
         <span className="ham__list-item flex items-center content-center justify-between">
           SERVICES
           {/*  */}
@@ -20,9 +19,13 @@ export const HamServicesComponent = () => {
       </NavLink>
       {servicesOpen && (
         <div className="services-items">
-            {servicestype.map((item) => (
-                <HamServicesType key={item.id} to={item.to} name={item.title.toUpperCase()} />
-            ))}
+          {servicestype.map((item) => (
+            <HamServicesType
+              key={item.id}
+              to={item.to}
+              name={item.title.toUpperCase()}
+            />
+          ))}
         </div>
       )}
     </>

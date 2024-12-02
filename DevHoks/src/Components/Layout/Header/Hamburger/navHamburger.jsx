@@ -8,7 +8,7 @@ const NavHamburger = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <div className="navhamburger fixed right-0 top-9 z-20  ">  
+    <div className="navhamburger fixed right-0 top-9 z-20  ">
       <i
         className="fa-solid fa-bars ham-icon"
         onClick={() => setNavOpen(true)}
@@ -16,15 +16,20 @@ const NavHamburger = () => {
 
       {navOpen && (
         <div>
-          <div className={`ham__layout__bg ${navOpen ? "open" : ""}`}></div>
-          <div className={`ham-container ${navOpen ? "open" : ""} dark:bg-gray-900 fixed right-0 top-0`}>
+          <div
+            className={`ham__layout__bg ${
+              navOpen ? "open" : ""
+            }  dark:bg-gray-900 fixed right-0 top-0`}
+          ></div>
+          <div
+            className={`ham-container ${
+              navOpen ? "open" : ""
+            } dark:bg-gray-900 fixed right-0 top-0`}
+          >
             <div className="flex justify-around items-center w-100 mt-4">
               <div className="navbar__left flex gap-2">
                 <img src="/logo.png" alt="Devhoks"></img>
-                <NavLink
-                  to="/"
-                  className="navbar__logo opacity-80 text-white"
-                >
+                <NavLink to="/" className="navbar__logo opacity-80 text-white">
                   Devhoks
                 </NavLink>
               </div>
@@ -47,25 +52,43 @@ const NavHamburger = () => {
             <footer className="text-white flex flex-col gap-3 w-100 mt-8  px-4 footer__wrapper">
               <div className="flex gap-3 items-center email">
                 <i className="fa-solid fa-envelope"></i>
-                <a href="mailto:abdulhameed000650@gmail.com">info@devhoks.org</a>
+                <a href="mailto:abdulhameed000650@gmail.com">
+                  info@devhoks.org
+                </a>
               </div>
 
               <div className="flex gap-3 items-center phone">
                 <i className="fa-solid fa-phone-flip"></i>
                 <a href="tel:+923000713825">+923000713825</a>
               </div>
-              
+
               <div className="flex flex-row items-center gap-4 mt-2 social">
-                <a href="https://twitter.com/devhoks" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://twitter.com/devhoks"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa-brands fa-twitter icon"></i>
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=61569390263675&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61569390263675&mibextid=ZbWKwL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa-brands fa-facebook-f icon"></i>
                 </a>
-                <a href="https://instagram.com/devhoks.official" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://instagram.com/devhoks.official"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa-brands fa-square-instagram icon"></i>
                 </a>
-                <a href="https://www.linkedin.com/company/devhoks/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.linkedin.com/company/devhoks/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa-brands fa-linkedin-in icon"></i>
                 </a>
               </div>
