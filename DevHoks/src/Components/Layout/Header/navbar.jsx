@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="navbar__left flex flex-row items-center justify-center gap-2">
         <img src="/logo.png" alt="Devhoks"></img>
         <NavLink to="/" className="navbar__logo">
-          Devhoks
+          Devhooks
         </NavLink>
       </div>
 
