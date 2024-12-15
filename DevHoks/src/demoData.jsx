@@ -100,7 +100,7 @@ const discountData = [
     icon: "fa-solid fa-circle-check",
     title: "Army Veterans - 20% Off",
     description:
-      "DevHoks Honor You, 20% Discount for Army Veterans. You Served Us, Now Let Us Serve You.",
+      "DevHooks Honor You, 20% Discount for Army Veterans. You Served Us, Now Let Us Serve You.",
     lnk: "",
   },
   {
@@ -188,25 +188,25 @@ const titleParaInfo = [
     title: "Top Featured Services",
     heading: "Experience Top Services of Our Agency",
     description:
-      "These are the Special services of Devhoks,Guaranteed Satisfaction and Professionalism.",
+      "These are the Special services of DevHooks,Guaranteed Satisfaction and Professionalism.",
   },
   {
     id: 2,
     title: "Thats How We Work",
-    heading: "Experience Devhoks's Flows",
+    heading: "Experience DevHooks's Flows",
     description:
       "Think of our algorithm like butter on bread—smooth and effortless. It's that simple! Each step flows seamlessly, making meetings a breeze.",
   },
   {
     id: 3,
     title: "SPECIAL DISCOUNTS",
-    heading: "Special Offers for Special People by Devhoks",
+    heading: "Special Offers for Special People by DevHooks",
     description: "Get the Best Offers and Discounts on our Services.",
   },
   {
     id: 4,
     title: "Why People Choose Us",
-    heading: "Why Choose Devhoks Over Others",
+    heading: "Why Choose DevHooks Over Others",
     description:
       "With over 1 million agencies out there, here's what sets us apart and keeps clients winning.",
   },
