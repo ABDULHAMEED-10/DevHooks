@@ -342,7 +342,7 @@ const Footer = () => {
           <div className="mt-8 border-t border-gray-100 pt-8 dark:border-gray-800">
             <div className="sm:flex sm:justify-between">
               <p className="text-xs text-gray-500 dark:text-gray-400">
-                &copy; 2024. Devhoks. All rights reserved.
+                &copy; 2024. Devhooks. All rights reserved.
               </p>
               <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
                 <li>
