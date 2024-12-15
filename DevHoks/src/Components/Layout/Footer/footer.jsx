@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 <a
                   href="https://wa.me/+923000713825"
-                  className="inline-block mt-3 px-6 py-1.5 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg hover:bg-gray-200 hover:text-gray-900 focus:bg-gray-200 focus:text-gray-900 transition duration-300"
+                  className="inline-block mt-3 px-6 py-1.5 text-lg font-semibold text-gray-900 bg-gray-200 rounded-lg hover:bg-gray-800 hover:text-gray-100 focus:bg-gray-800 focus:text-gray-100 transition duration-300 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-200 dark:hover:text-gray-800 dark:focus:bg-gray-800 dark:focus:text-gray-200"
                 >
                   Contact
                 </a>
