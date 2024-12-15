@@ -16,14 +16,19 @@ const Footer = () => {
               <div className="col-span-2">
                 <div>
                   <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                    Get the latest news!
+                    Lets try our service now!
                   </h2>
 
-                  <p className="mt-4 text-gray-500 dark:text-gray-400">
-                    Sign up to receive the latest news and updates directly to
-                    your inbox.
+                  <p className="mt-2 text-gray-500 dark:text-gray-400 ">
+                    We are always ready make your business more profitable.
                   </p>
                 </div>
+                <a
+                  href="https://wa.me/+923000713825"
+                  className="inline-block mt-3 px-6 py-1.5 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg hover:bg-gray-200 hover:text-gray-900 focus:bg-gray-200 focus:text-gray-900 transition duration-300"
+                >
+                  Contact
+                </a>
               </div>
 
               <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
@@ -56,7 +61,7 @@ const Footer = () => {
                 <ul className="mt-6 space-y-4 text-sm">
                   <li>
                     <Link
-                      to="/service/web-development"
+                      to="/service/webDevelopment"
                       className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                     >
                       Web Development
@@ -65,7 +70,7 @@ const Footer = () => {
 
                   <li>
                     <Link
-                      to="/service/app-development"
+                      to="/service/mobileDevelopment"
                       className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                     >
                       App Development
@@ -74,7 +79,7 @@ const Footer = () => {
 
                   <li>
                     <Link
-                      to="/service/ui-ux-designing"
+                      to="/service/uiux"
                       className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                     >
                       Ui/Ux Designing
@@ -92,10 +97,18 @@ const Footer = () => {
 
                   <li>
                     <Link
-                      to="/service/digital-marketing"
+                      to="/service/digitalMarketing"
                       className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                     >
                       Digital Marketing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/service/socialMedia"
+                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                    >
+                      Branding
                     </Link>
                   </li>
                 </ul>
@@ -118,7 +131,7 @@ const Footer = () => {
 
                   <li>
                     <a
-                      href="#team"
+                      href="#"
                       className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
                     >
                       Our Team

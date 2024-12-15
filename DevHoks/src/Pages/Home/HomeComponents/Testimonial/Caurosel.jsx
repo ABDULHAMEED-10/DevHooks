@@ -31,7 +31,11 @@ export const Caurosel = () => {
     onSwipedRight: () => goToPrevious(),
   });
   return (
-    <div {...handlers} className="flex flex-col items-center py-10">
+    <div
+      {...handlers}
+      className="flex flex-col items-center py-10"
+      id="reviews"
+    >
       <div className="w-full mx-auto max-w-8xl px-4 lg:px-8 ">
         <TitleAndPara prop={titleParaInfo[4]} />
       </div>
