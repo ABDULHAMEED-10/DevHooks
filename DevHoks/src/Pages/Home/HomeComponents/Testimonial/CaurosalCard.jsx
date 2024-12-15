@@ -1,7 +1,7 @@
 import propTypes from "prop-types";
-export const CaurosalCard = ({prop}) => {
+export const CaurosalCard = ({ prop }) => {
   return (
-    <div className="w-full rounded-2xl bg-gray-100 border-none p-5 dark:bg-gray-100">
+    <div className="w-full rounded-t-2xl bg-gray-100 border-none p-5 dark:bg-gray-100">
       <div className="w-full flex mb-4 items-center">
         <div className="overflow-hidden rounded-full bg-gray-50 border border-gray-200">
           <img src={prop.pic} alt="pic"></img>
@@ -17,7 +17,7 @@ export const CaurosalCard = ({prop}) => {
           <span className="text-lg leading-none italic font-bold text-gray-500 mr-1">
             &quot;
           </span>
-            {prop.review}
+          {prop.review}
           <span className="text-lg leading-none italic font-bold text-gray-500 ml-1">
             &quot;
           </span>
@@ -28,8 +28,7 @@ export const CaurosalCard = ({prop}) => {
 };
 
 CaurosalCard.propTypes = {
-    prop: propTypes.object,
+  prop: propTypes.object,
 };
-    
 
 export default CaurosalCard;

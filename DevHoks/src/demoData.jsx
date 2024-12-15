@@ -44,32 +44,27 @@ const brandsData = [
     id: 1,
     imageSrc: brand1,
     altText: "Jupiter",
-    
   },
   {
     id: 2,
     imageSrc: brand2,
     altText: "dyte",
- 
   },
   {
     id: 3,
     imageSrc: brand3,
     altText: "fampay",
-   
   },
 
   {
     id: 4,
     imageSrc: brand4,
     altText: "swigg",
-  
   },
   {
     id: 5,
     imageSrc: brand5,
     altText: "Mighty",
-   
   },
 ];
 const servicesData = [
@@ -106,7 +101,7 @@ const discountData = [
     title: "Army Veterans - 20% Off",
     description:
       "DevHoks Honor You, 20% Discount for Army Veterans. You Served Us, Now Let Us Serve You.",
-
+    lnk: "",
   },
   {
     id: 2,
@@ -114,7 +109,7 @@ const discountData = [
     title: "Individuals over 60",
     description:
       "Special 20% Discount for Individuals Over 60. Let Us Help You, Every Step of the Way.",
-   
+    lnk: "",
   },
   {
     id: 3,
@@ -122,6 +117,7 @@ const discountData = [
     title: "Under 20 Enterpreneurs",
     description:
       "Special 15% Discount for Entrepreneurs Under 20. Your Ideas Deserve Our Respect and Support.",
+    lnk: "",
   },
 ];
 
@@ -131,23 +127,22 @@ const reviewsData = [
     pic: test1,
     name: "Kenzie Edgar",
     review:
-      "DevHoks exceeded our expectations with their web development services. Their attention to detail and commitment to deadlines were outstanding. Our platform is now faster, more user-friendly, and highly secure. Highly recommended!",
+      "DevHooks exceeded our expectations with their web development services. Their attention to detail and commitment to deadlines were outstanding. Our platform is now faster, more user-friendly, and highly secure. Highly recommended!",
   },
   {
     id: 2,
     pic: test2,
     name: "Stevie Tifft",
     review:
-      "Working with DevHoks was an absolute pleasure. They transformed our vision into a stunning e-commerce website with seamless functionality. The team was professional, responsive, and went above and beyond to deliver a perfect product.",
+      "Working with DevHooks was an absolute pleasure. They transformed our vision into a stunning e-commerce website with seamless functionality. The team was professional, responsive, and went above and beyond to deliver a perfect product.",
   },
-
 
   {
     id: 3,
     pic: test4,
     name: "Kendall Mcguffie",
     review:
-      "DevHoks is a team of highly skilled professionals who are committed to delivering quality work. They built a beautiful website for my business that is easy to navigate and has helped me attract more clients. I am extremely happy with the results!",
+      "DevHooks is a team of highly skilled professionals who are committed to delivering quality work. They built a beautiful website for my business that is easy to navigate and has helped me attract more clients. I am extremely happy with the results!",
   },
 
   {
@@ -155,11 +150,8 @@ const reviewsData = [
     pic: test3,
     name: "Maurice Harnish",
     review:
-      "I am thrilled with the website that DevHoks created for my business. It is visually stunning, easy to use, and has helped me increase my online sales. The team was a pleasure to work with and delivered the project on time and within budget.",
+      "I am thrilled with the website that DevHooks created for my business. It is visually stunning, easy to use, and has helped me increase my online sales. The team was a pleasure to work with and delivered the project on time and within budget.",
   },
-
-
-  
 ];
 
 const statsData = [
@@ -169,7 +161,7 @@ const statsData = [
     end: 15,
     title: "Expert Consultants",
   },
-  
+
   {
     id: 2,
     start: 0,
@@ -188,7 +180,6 @@ const statsData = [
     end: 14,
     title: "Orders in Queue",
   },
-  
 ];
 
 const titleParaInfo = [
@@ -196,31 +187,43 @@ const titleParaInfo = [
     id: 1,
     title: "Top Featured Services",
     heading: "Experience Top Services of Our Agency",
-    description: "These are the Special services of Devhoks,Guaranteed Satisfaction and Professionalism.",
+    description:
+      "These are the Special services of Devhoks,Guaranteed Satisfaction and Professionalism.",
   },
   {
     id: 2,
     title: "Thats How We Work",
     heading: "Experience Devhoks's Flows",
-    description:"Think of our algorithm like butter on bread—smooth and effortless. It's that simple! Each step flows seamlessly, making meetings a breeze."
+    description:
+      "Think of our algorithm like butter on bread—smooth and effortless. It's that simple! Each step flows seamlessly, making meetings a breeze.",
   },
   {
     id: 3,
     title: "SPECIAL DISCOUNTS",
     heading: "Special Offers for Special People by Devhoks",
-    description:"Get the Best Offers and Discounts on our Services."
+    description: "Get the Best Offers and Discounts on our Services.",
   },
   {
     id: 4,
     title: "Why People Choose Us",
     heading: "Why Choose Devhoks Over Others",
-    description:"With over 1 million agencies out there, here's what sets us apart and keeps clients winning."
+    description:
+      "With over 1 million agencies out there, here's what sets us apart and keeps clients winning.",
   },
   {
     id: 5,
     title: "Our Happy Clients",
     heading: "What Our Clients Say About Us",
-    description:"Our clients are our biggest supporters. Take a look for yourself in the testimonials."
-  }  
+    description:
+      "Our clients are our biggest supporters. Take a look for yourself in the testimonials.",
+  },
 ];
-export { servicestype, brandsData, servicesData,discountData,reviewsData,statsData,titleParaInfo };
+export {
+  servicestype,
+  brandsData,
+  servicesData,
+  discountData,
+  reviewsData,
+  statsData,
+  titleParaInfo,
+};

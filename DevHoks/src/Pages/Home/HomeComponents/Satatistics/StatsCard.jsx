@@ -10,7 +10,8 @@ export const StatsCard = ({ prop }) => {
           enableScrollSpy
           scrollSpyOnce
           duration={2}
-        /><span className="text-4xl">+</span>
+        />
+        <span className="text-4xl">+</span>
       </div>
       <span className="text-gray-900 text-center block lg:text-left">
         {prop.title}

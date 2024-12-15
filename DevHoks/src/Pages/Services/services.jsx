@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React from "react";
+import Description from "../About/AboutComponents/Description";
 export const services = () => {
   return (
+    <div>
+      <Description />
+    </div>
+  );
+};
 
-            <div>
-                <h1>Services</h1>
-          </div>
-  )
-}
-
-export default services
+export default services;
