@@ -233,7 +233,7 @@ const Footer = () => {
               <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
                 <li>
                   <a
-                    href="https://facebook.com/devhoks.official"
+                    href="https://www.facebook.com/profile.php?id=61569390263675&mibextid=ZbWKwL"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
