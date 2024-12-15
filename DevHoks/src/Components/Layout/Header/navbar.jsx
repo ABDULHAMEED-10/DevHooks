@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import "./navbar.css";
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import NavHamburger from "./Hamburger/navHamburger";
@@ -14,9 +14,9 @@ const Navbar = () => {
     <div className="navbar__container flex flex-row items-center gap-20 px-20 md:justify-around fixed top-0 left-0 right-0 z-50 bg-white">
       <div className="navbar__left flex flex-row items-center justify-center gap-2">
         <img src="/logo.png" alt="Devhoks"></img>
-        <NavLink to="/" className="navbar__logo">
+        <a href="/" className="navbar__logo">
           Devhooks
-        </NavLink>
+        </a>
       </div>
 
       <div className="navbar__right hidden md:flex lg:gap-2 lg:justify-between md:justify-end sm:justify-end ">
@@ -42,7 +42,7 @@ const Navbar = () => {
         </ul>
         <button className="flex items-center align-center ">
           <NavLink to="/contact" className="nav__button">
-            Contact 
+            Contact
           </NavLink>
         </button>
       </div>
