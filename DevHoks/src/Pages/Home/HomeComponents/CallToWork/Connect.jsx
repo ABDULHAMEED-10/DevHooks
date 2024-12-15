@@ -19,7 +19,7 @@ export const Connect = () => {
           <div className="">
             <a
               href="https://wa.me/+923000713825"
-              className="inline-block px-6 py-1.5 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg hover:bg-gray-200 focus:bg-gray-200 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 transition duration-300"
+              className="inline-block px-6 py-1.5 text-lg font-semibold text-gray-800 bg-gray-100 rounded-lg hover:bg-gray-200 hover:text-gray-900 focus:bg-gray-200 focus:text-gray-900 transition duration-300"
             >
               Contact
             </a>

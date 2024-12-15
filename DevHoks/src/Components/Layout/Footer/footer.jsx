@@ -27,7 +27,7 @@ const Footer = () => {
               </div>
 
               <div className="col-span-2 lg:col-span-3 lg:flex lg:items-end">
-                <form className="w-full">
+                {/* <form className="w-full">
                   <label htmlFor="UserEmail" className="sr-only">
                     {" "}
                     Email{" "}
@@ -45,7 +45,7 @@ const Footer = () => {
                       Sign Up
                     </button>
                   </div>
-                </form>
+                </form> */}
               </div>
 
               <div className="col-span-1 lg:col-span-2">
