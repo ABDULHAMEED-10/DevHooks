@@ -62,7 +62,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="/service/webDevelopment"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       Web Development
                     </Link>
@@ -71,7 +71,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="/service/mobileDevelopment"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       App Development
                     </Link>
@@ -80,7 +80,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="/service/uiux"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       Ui/Ux Designing
                     </Link>
@@ -89,7 +89,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="/service/seo"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       SEO Optimisation
                     </Link>
@@ -98,7 +98,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="/service/digitalMarketing"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       Digital Marketing
                     </Link>
@@ -106,7 +106,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="/service/socialMedia"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       Branding
                     </Link>
@@ -123,7 +123,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="/about"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       About Us
                     </Link>
@@ -132,7 +132,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       Our Team
                     </a>
@@ -141,7 +141,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#reviews"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       Reviews
                     </a>
@@ -158,7 +158,7 @@ const Footer = () => {
                   <li>
                     <Link
                       to="/contact"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       Contact Us
                     </Link>
@@ -167,7 +167,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="#"
-                      className="text-gray-700 transition hover:text-gray-200 dark:text-gray-400"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                     >
                       FAQs
                     </a>
@@ -348,7 +348,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/rules/terms"
-                    className="text-gray-500 transition hover:text-gray-200 dark:text-gray-400"
+                    className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                   >
                     Terms & Conditions
                   </Link>
@@ -357,7 +357,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/rules/privacy"
-                    className="text-gray-500 transition hover:text-gray-200 dark:text-gray-400"
+                    className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                   >
                     Privacy Policy
                   </Link>
@@ -366,7 +366,7 @@ const Footer = () => {
                 <li>
                   <Link
                     to="/rules/cookies"
-                    className="text-gray-500 transition hover:text-gray-200 dark:text-gray-400"
+                    className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
                   >
                     Cookies
                   </Link>
