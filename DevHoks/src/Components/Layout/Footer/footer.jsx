@@ -257,7 +257,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="https://instagram.com/devhoks.official"
+                    href="https://instagram.com/devhooks.tech"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"
@@ -281,7 +281,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="https://twitter.com/devhoks"
+                    href="https://twitter.com/devhooks.tech"
                     rel="noreferrer"
                     target="_blank"
                     className="text-gray-700 transition hover:opacity-75 dark:text-gray-200"

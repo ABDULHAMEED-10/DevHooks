@@ -30,7 +30,7 @@ const NavHamburger = () => {
               <div className="navbar__left flex gap-2">
                 <img src="/logo.png" alt="Devhoks"></img>
                 <NavLink to="/" className="navbar__logo opacity-80 text-white">
-                  Devhoks
+                  Devhooks
                 </NavLink>
               </div>
               <div className="ham-menu">
@@ -53,18 +53,18 @@ const NavHamburger = () => {
               <div className="flex gap-3 items-center email">
                 <i className="fa-solid fa-envelope"></i>
                 <a href="mailto:abdulhameed000650@gmail.com">
-                  info@devhoks.org
+                  info@devhooks.tech
                 </a>
               </div>
 
               <div className="flex gap-3 items-center phone">
                 <i className="fa-solid fa-phone-flip"></i>
-                <a href="tel:+923000713825">+923000713825</a>
+                <a href="tel:+923000713825">+92 3000 713 825</a>
               </div>
 
               <div className="flex flex-row items-center gap-4 mt-2 social">
                 <a
-                  href="https://twitter.com/devhoks"
+                  href="https://twitter.com/devhooks"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -78,7 +78,7 @@ const NavHamburger = () => {
                   <i className="fa-brands fa-facebook-f icon"></i>
                 </a>
                 <a
-                  href="https://instagram.com/devhoks.official"
+                  href="https://instagram.com/devhooks.tech"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
