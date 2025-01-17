@@ -89,7 +89,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
   };
   const handleContactQuery = () => {
     const message = createChatBotMessage(
-      "You can contact us via email at contact@company.com or call us at (+92) 300 0713825."
+      "You can contact us via email at contact@rixonbit.com or call us at (+92) 300 0713825."
     );
     setState((state) => ({ ...state, messages: [...state.messages, message] }));
   };

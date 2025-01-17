@@ -1,27 +1,23 @@
-import CountUp from "react-countup";
-import proptypes from "prop-types";
-export const StatsCard = ({ prop }) => {
+import React from "react";
+import PropTypes from "prop-types";
+
+const StatsCard = ({ prop }) => {
   return (
-    <div className="block">
-      <div className="font-bold text-4xl text-green-600 mb-3 flex justify-center text-center lg:text-left">
-        <CountUp
-          start={prop.start}
-          end={prop.end}
-          enableScrollSpy
-          scrollSpyOnce
-          duration={2}
-        />
-        <span className="text-4xl">+</span>
+    <div className="flex flex-row justify-center p-5 rounded-lg border border-green-700 gap-4">
+      <div className="hidden md:flex items-center justify-center bg-green-200 text-green-700 rounded-full w-16 h-16">
+        <i
+          className={`${prop.icon} text-4xl text-green-700 bg-green-200 p-3 rounded-full`}
+        ></i>
       </div>
-      <span className="text-gray-900 text-center block lg:text-left">
-        {prop.title}
-      </span>
+      <div className="leading-relaxed tracking-wide text-gray-700 flex flex-col gap-4">
+        <h3 className="text-xl font-bold text-gray-900">{prop.title}</h3>
+        <p className="text-md text-gray-700 ">{prop.description}</p>
+      </div>
     </div>
   );
 };
-
 StatsCard.propTypes = {
-  prop: proptypes.object.isRequired,
+  prop: PropTypes.any.isRequired,
 };
 
 export default StatsCard;

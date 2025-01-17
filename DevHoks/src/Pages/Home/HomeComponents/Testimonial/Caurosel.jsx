@@ -2,74 +2,81 @@ import "./../Home.css";
 import { reviewsData, titleParaInfo } from "../../../../demoData";
 import TitleAndPara from "../TitleAndPara";
 import CaurosalCard from "./CaurosalCard";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
-import { useEffect } from "react";
 
 export const Caurosel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const visibleItems = 2; // Display 2 items at a time
+  const totalItems = reviewsData.length;
+
   useEffect(() => {
     const interval = setInterval(() => {
       goToNext();
-    }, 10000);
-
+    }, 5000); // Auto-scroll every 5 seconds
     return () => clearInterval(interval);
   }, [currentIndex]);
+
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? reviewsData.length - 1 : prevIndex - 1
+      prevIndex === 0 ? totalItems - visibleItems : prevIndex - 1
     );
   };
 
   const goToNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === reviewsData.length - 1 ? 0 : prevIndex + 1
+    setCurrentIndex(
+      (prevIndex) => (prevIndex + 1) % (totalItems - visibleItems + 1)
     );
   };
+
   const handlers = useSwipeable({
     onSwipedLeft: () => goToNext(),
     onSwipedRight: () => goToPrevious(),
   });
+
+  const getTransformValue = () =>
+    `translateX(-${(currentIndex * 100) / visibleItems}%)`;
+
   return (
-    <div
-      {...handlers}
-      className="flex flex-col items-center py-10"
-      id="reviews"
-    >
-      <div className="w-full mx-auto max-w-8xl px-4 lg:px-8 ">
+    <div {...handlers} className="py-10" id="reviews">
+      {/* Title Section */}
+      <div className="w-full mx-auto max-w-8xl px-4 lg:px-8 text-center mb-8">
         <TitleAndPara prop={titleParaInfo[4]} />
       </div>
-      <div className="flex flex-col items-center">
-        <div className="relative flex items-center justify-center w-full max-w-2xl lg:max-w-3xl px-3 overflow-hidden">
-          <button
-            className="hidden md:flex border-none bg-gray-200 text-gray-500 ml-2 p-3 text-xl md:p-4 md:text-2xl lg:p-5 lg:text-4xl text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 left-0 z-10 dark:bg-gray-200 dark:text-gray-500 items-center"
-            onClick={goToPrevious}
-          >
-            &#8249;
-          </button>
 
-          <div className="flex items-center justify-center w-full rounded-b-lg border-b-8 border-green-600 dark:border-green-600 relative overflow-hidden">
-            <CaurosalCard prop={reviewsData[currentIndex]} />
-          </div>
-
-          <button
-            className="hidden md:flex border-none bg-gray-200 text-gray-500 mr-2 p-3 text-xl md:p-4 md:text-2xl lg:p-5 lg:text-4xl text-center cursor-pointer absolute top-1/2 transform -translate-y-1/2 right-0 z-10 dark:bg-gray-200 dark:text-gray-500 items-center"
-            onClick={goToNext}
-          >
-            &#8250;
-          </button>
-          <div className="absolute bottom-0 flex justify-center w-full pb-3">
-            {reviewsData.map((_, index) => (
-              <div
-                onClick={() => setCurrentIndex(index)}
-                key={index}
-                className={`h-2 w-2 mx-1 rounded-full ${
-                  index === currentIndex ? "bg-black" : "bg-gray-400"
-                }`}
-              ></div>
-            ))}
-          </div>
+      {/* Carousel */}
+      <div className="relative w-full max-w-7xl mx-auto overflow-hidden">
+        <div
+          className="flex transition-transform duration-700 ease-in-out"
+          style={{ transform: getTransformValue() }}
+        >
+          {reviewsData.map((review, index) => (
+            <div
+              key={index}
+              className={`flex-shrink-0 px-4 ${
+                /* Adjust width for visible items using Tailwind's responsive classes */
+                "w-full sm:w-1/2"
+              }`}
+            >
+              <CaurosalCard prop={review} />
+            </div>
+          ))}
         </div>
+      </div>
+
+      {/* Pagination Dots */}
+      <div className="flex justify-center mt-4">
+        {Array.from({ length: totalItems - visibleItems + 1 }).map(
+          (_, index) => (
+            <div
+              key={index}
+              onClick={() => setCurrentIndex(index)}
+              className={`h-3 w-3 mx-2 rounded-full cursor-pointer ${
+                index === currentIndex ? "bg-black" : "bg-gray-400"
+              }`}
+            ></div>
+          )
+        )}
       </div>
     </div>
   );

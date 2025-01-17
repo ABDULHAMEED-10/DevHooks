@@ -30,13 +30,13 @@ const servicestype = [
   },
   {
     id: 5,
-    to: "/service/digitalMarketing",
-    title: "Digital Marketing",
+    to: "/service/Ecommerce",
+    title: "E-commerce",
   },
   {
     id: 6,
-    to: "/service/socialMedia",
-    title: "Branding",
+    to: "/service/dataScience",
+    title: "Data Science",
   },
 ];
 const brandsData = [
@@ -100,7 +100,7 @@ const discountData = [
     icon: "fa-solid fa-circle-check",
     title: "Army Veterans - 20% Off",
     description:
-      "DevHooks Honor You, 20% Discount for Army Veterans. You Served Us, Now Let Us Serve You.",
+      "Rixon Bit Honor You, 20% Discount for Army Veterans. You Served Us, Now Let Us Serve You.",
     lnk: "",
   },
   {
@@ -126,59 +126,66 @@ const reviewsData = [
     id: 1,
     pic: test1,
     name: "Kenzie Edgar",
+    designation: "CEO, Tech Solutions Inc.",
     review:
-      "DevHooks exceeded our expectations with their web development services. Their attention to detail and commitment to deadlines were outstanding. Our platform is now faster, more user-friendly, and highly secure. Highly recommended!",
+      "Rixon Bit exceeded our expectations with their web development services. Their attention to detail and commitment to deadlines were outstanding. Our platform is now faster, more user-friendly, and highly secure. Highly recommended!",
   },
   {
     id: 2,
     pic: test2,
     name: "Stevie Tifft",
+    designation: "Founder, Tifft Technologies",
     review:
-      "Working with DevHooks was an absolute pleasure. They transformed our vision into a stunning e-commerce website with seamless functionality. The team was professional, responsive, and went above and beyond to deliver a perfect product.",
+      "Working with Rixon Bit was an absolute pleasure. They transformed our vision into a stunning e-commerce website with seamless functionality. The team was professional, responsive, and went above and beyond to deliver a perfect product.",
   },
 
   {
     id: 3,
     pic: test4,
     name: "Kendall Mcguffie",
+    designation: "CEO, Mcguffie Media Group",
     review:
-      "DevHooks is a team of highly skilled professionals who are committed to delivering quality work. They built a beautiful website for my business that is easy to navigate and has helped me attract more clients. I am extremely happy with the results!",
+      "Rixon Bit is a team of highly skilled professionals who are committed to delivering quality work. They built a beautiful website for my business that is easy to navigate and has helped me attract more clients. I am extremely happy with the results!",
   },
 
   {
     id: 4,
     pic: test3,
     name: "Maurice Harnish",
+    designation: "Founder, Harnish Enterprises",
     review:
-      "I am thrilled with the website that DevHooks created for my business. It is visually stunning, easy to use, and has helped me increase my online sales. The team was a pleasure to work with and delivered the project on time and within budget.",
+      "I am thrilled with the website that Rixon Bit created for my business. It is visually stunning, easy to use, and has helped me increase my online sales. The team was a pleasure to work with and delivered the project on time and within budget.",
   },
 ];
 
 const statsData = [
   {
     id: 1,
-    start: 0,
-    end: 15,
-    title: "Expert Consultants",
+    icon: "fa-solid fa-crown",
+    title: "We Own Every Corner of the Market from 2024",
+    description:
+      "From AI and Mobile App Development to Marketing and Design.Our comprehensive team of experts tackles it all.",
   },
-
   {
     id: 2,
-    start: 0,
-    end: 65,
-    title: "Active Clients",
+    icon: "fa-solid fa-comments",
+    title: "Our Multilingual Agents Deliver a Proven Win-Win",
+    description:
+      "Communication made easy! Our 8+ language agents understand your needs and ensure a smooth conversation experience.",
   },
   {
     id: 3,
-    start: 0,
-    end: 115,
-    title: "Projects Delivered",
+    icon: "fa-solid fa-phone",
+    title: "Free Consultation, Real Results for Free",
+    description:
+      "Get a free 45-minute consultation for your business idea.No $250 charge - we're your allies, offering this service for free.",
   },
   {
     id: 4,
-    start: 0,
-    end: 14,
-    title: "Orders in Queue",
+    icon: "fa-solid fa-video",
+    title: "Two meetings a week,every update on Time",
+    description:
+      "We prioritize our clients by two weekly meetings to showcase our progress, gather feedback, and ensure it with their vision.",
   },
 ];
 
@@ -188,25 +195,25 @@ const titleParaInfo = [
     title: "Top Featured Services",
     heading: "Experience Top Services of Our Agency",
     description:
-      "These are the Special services of DevHooks,Guaranteed Satisfaction and Professionalism.",
+      "These are the Special services of Rixon Bit,Guaranteed Satisfaction and Professionalism.",
   },
   {
     id: 2,
     title: "Thats How We Work",
-    heading: "Experience DevHooks's Flows",
+    heading: "Experience Rixon Bit's Flows",
     description:
       "Think of our algorithm like butter on bread—smooth and effortless. It's that simple! Each step flows seamlessly, making meetings a breeze.",
   },
   {
     id: 3,
     title: "SPECIAL DISCOUNTS",
-    heading: "Special Offers for Special People by DevHooks",
+    heading: "Special Offers for Special People by Rixon Bit",
     description: "Get the Best Offers and Discounts on our Services.",
   },
   {
     id: 4,
     title: "Why People Choose Us",
-    heading: "Why Choose DevHooks Over Others",
+    heading: "Why Choose Rixon Bit Over Others",
     description:
       "With over 1 million agencies out there, here's what sets us apart and keeps clients winning.",
   },
@@ -217,7 +224,37 @@ const titleParaInfo = [
     description:
       "Our clients are our biggest supporters. Take a look for yourself in the testimonials.",
   },
+  {
+    id: 6,
+    title: "FAQs",
+    heading: "Frequently Asked Questions",
+    description: "",
+  },
 ];
+const FAQdata = [
+  {
+    id: 1,
+    icon: "fa-solid fa-lightbulb",
+    question: "What services do you offer?",
+    answer:
+      "We offer a wide range of services, including web development, app development, UI/UX designing, SEO, e-commerce, and data science. Our team of experts is dedicated to helping you grow your business online.",
+  },
+  {
+    id: 2,
+    icon: "fa-solid fa-book",
+    question: "How do I get started with Rixon Bit?",
+    answer:
+      "Getting started with Rixon Bit is easy! Simply fill out our contact form, and one of our agents will reach out to you to discuss your needs and recommend the best solutions for your business.",
+  },
+  {
+    id: 3,
+    icon: "fa-solid fa-pen-to-square",
+    question: "What makes Rixon Bit different from other agencies?",
+    answer:
+      "Rixon Bit is different from other agencies because we prioritize our clients' needs and deliver high-quality work on time and within budget. Our team of experts is committed to helping you achieve your business goals and grow your online presence.",
+  },
+];
+
 export {
   servicestype,
   brandsData,
@@ -226,4 +263,5 @@ export {
   reviewsData,
   statsData,
   titleParaInfo,
+  FAQdata,
 };

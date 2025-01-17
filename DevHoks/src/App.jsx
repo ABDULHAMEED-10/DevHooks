@@ -1,17 +1,14 @@
 /* eslint-disable no-unused-vars */
-import './App.css'
-import React from 'react'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import 'react-chatbot-kit/build/main.css'
-import HomePage from './Pages/Home/home'
-import AboutUs from './Pages/About/about'
-import Contact from './Pages/Contact/contact'
-import Projects from './Pages/Projects/projects'
-import Services from './Pages/Services/services'
-import Layout from './Components/Layout';
+import "./App.css";
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "react-chatbot-kit/build/main.css";
+import HomePage from "./Pages/Home/home";
+import AboutUs from "./Pages/About/about";
+import Contact from "./Pages/Contact/contact";
+import Projects from "./Pages/Projects/projects";
+import Services from "./Pages/Services/services";
+import Layout from "./Components/Layout";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -54,7 +51,7 @@ const router = createBrowserRouter([
         element: <Services />,
       },
       {
-        path: "/service/socialMedia",
+        path: "/service/Ecommerce",
         element: <Services />,
       },
       {
@@ -62,19 +59,18 @@ const router = createBrowserRouter([
         element: <Services />,
       },
       {
-        path: "/service/digitalMarketing",
+        path: "/service/dataScience",
         element: <Services />,
-      }
-    ]
+      },
+    ],
   },
-  
 ]);
 function App() {
   return (
     <div>
       <RouterProvider router={router} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

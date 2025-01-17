@@ -1,25 +1,27 @@
 import propTypes from "prop-types";
+
 export const CaurosalCard = ({ prop }) => {
   return (
-    <div className="w-full rounded-t-2xl bg-gray-100 border-none p-5 dark:bg-gray-100">
-      <div className="w-full flex mb-4 items-center">
-        <div className="overflow-hidden rounded-full bg-gray-50 border border-gray-200">
-          <img src={prop.pic} alt="pic"></img>
-        </div>
-        <div className="flex-grow pl-3">
-          <h6 className="font-bold text-lg uppercase text-gray-600 ">
-            {prop.name}
-          </h6>
-        </div>
-      </div>
+    <div className="w-full rounded-2xl border p-5">
       <div className="w-full">
-        <p className="text-md leading-tight tracking-wide text-gray-700 ml-2">
+        <div className="flex items-center justify-start mb-4">
+          <img
+            src={prop.pic}
+            alt="profile"
+            className="w-12 h-12 rounded-full"
+          />
+          <div className="ml-3">
+            <h2 className="text-lg font-bold text-gray-800">{prop.name}</h2>
+            <p className="text-sm text-gray-500">{prop.designation}</p>
+          </div>
+        </div>
+        <p className="text-base leading-relaxed tracking-wide text-gray-700 ml-2">
           <span className="text-lg leading-none italic font-bold text-gray-500 mr-1">
-            &quot;
+            “
           </span>
           {prop.review}
           <span className="text-lg leading-none italic font-bold text-gray-500 ml-1">
-            &quot;
+            ”
           </span>
         </p>
       </div>
@@ -28,7 +30,7 @@ export const CaurosalCard = ({ prop }) => {
 };
 
 CaurosalCard.propTypes = {
-  prop: propTypes.object,
+  prop: propTypes.object.isRequired,
 };
 
 export default CaurosalCard;

@@ -6,6 +6,8 @@ import Chatbot from "react-chatbot-kit";
 import config from "../Components/ChatBot/config.js";
 import MessageParser from "../Components/ChatBot/MessageParser.jsx";
 import ActionProvider from "../Components/ChatBot/ActionProvider.jsx";
+
+import CallToAction from "../Pages/Home/HomeComponents/CallToAction/CallToAction.jsx";
 import { Outlet } from "react-router";
 
 const Layout = () => {
@@ -19,7 +21,10 @@ const Layout = () => {
     <div>
       <Navbar />
       <Outlet />
-      <Footer />
+      <div className="relative">
+        <CallToAction />
+        <Footer />
+      </div>
 
       <div
         className={`fixed bottom-5 right-5 bg-green-600 text-white rounded-full w-12 h-12 flex items-center justify-center cursor-pointer ${

@@ -30,7 +30,7 @@ const NavHamburger = () => {
               <div className="navbar__left flex gap-2">
                 <img src="/logo.png" alt="Devhoks"></img>
                 <NavLink to="/" className="navbar__logo opacity-80 text-white">
-                  Devhooks
+                  RixonBit
                 </NavLink>
               </div>
               <div className="ham-menu">
@@ -53,7 +53,7 @@ const NavHamburger = () => {
               <div className="flex gap-3 items-center email">
                 <i className="fa-solid fa-envelope"></i>
                 <a href="mailto:abdulhameed000650@gmail.com">
-                  info@devhooks.tech
+                  info@RixonBit.com
                 </a>
               </div>
 
