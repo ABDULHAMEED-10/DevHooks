@@ -3,7 +3,7 @@ import { discountData, titleParaInfo } from "../../../../demoData";
 import TitleAndPara from "../TitleAndPara";
 export const SpecialOffer = () => {
   return (
-    <div className="bg-white py-10 sm:py-14 ">
+    <div className=" py-10 sm:py-14 ">
       <div className="mx-auto max-w-8xl px-4 lg:px-8 ">
         <TitleAndPara prop={titleParaInfo[2]} />
       </div>

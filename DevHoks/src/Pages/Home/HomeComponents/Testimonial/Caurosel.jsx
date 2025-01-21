@@ -7,7 +7,8 @@ import { useSwipeable } from "react-swipeable";
 
 export const Caurosel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const visibleItems = 2; // Display 2 items at a time
+  const [visibleItems, setVisibleItems] = useState(2); // Default to 2 items
+
   const totalItems = reviewsData.length;
 
   useEffect(() => {
@@ -16,6 +17,20 @@ export const Caurosel = () => {
     }, 5000); // Auto-scroll every 5 seconds
     return () => clearInterval(interval);
   }, [currentIndex]);
+
+  useEffect(() => {
+    const updateVisibleItems = () => {
+      if (window.innerWidth < 640) {
+        setVisibleItems(1); // 1 item for mobile
+      } else {
+        setVisibleItems(2); // 2 items for larger screens
+      }
+    };
+
+    updateVisibleItems();
+    window.addEventListener("resize", updateVisibleItems);
+    return () => window.removeEventListener("resize", updateVisibleItems);
+  }, []);
 
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) =>
@@ -55,7 +70,7 @@ export const Caurosel = () => {
               key={index}
               className={`flex-shrink-0 px-4 ${
                 /* Adjust width for visible items using Tailwind's responsive classes */
-                "w-full sm:w-1/2"
+                visibleItems === 1 ? "w-full" : "w-full sm:w-1/2"
               }`}
             >
               <CaurosalCard prop={review} />

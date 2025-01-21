@@ -13,14 +13,14 @@ const HeroSection = () => {
     "Digital Marketing",
   ];
   return (
-    <div className="hero__section__wrapper">
-      <div className="relative isolate px-4 lg:px-8">
+    <div className="hero__section__wrapper h-svh py-12 lg:py-4 rounded-b-3xl lg:rounded-b-full">
+      <div className="relative isolate px-4 lg:px-8 ">
         <div
           aria-hidden="true"
           className="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
         ></div>
         <div className="mx-auto min-w-5xl py-28 sm:py-32 lg:py-44">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+          <div className="mb-16 lg:mb-8 flex justify-center">
             <div className="relative rounded-full px-4 py-2 text-md leading-6 font-medium text-green-700 bg-green-300 ring-1 ring-green-300">
               Delivering The Solution Over The Globe.{""}
             </div>
@@ -45,11 +45,11 @@ const HeroSection = () => {
               We are Top Agency in UK with over 600+ Satisfied Clients over the
               World.
             </p>
-            <div className="mt-10 flex flex-row justify-center items-center gap-4 lg:gap-6">
+            <div className="mt-20 lg:mt-10 flex flex-row justify-center items-center gap-4 lg:gap-6">
               <span>
                 <a
                   href="https://wa.me/+923000713825"
-                  className="rounded-md bg-gray-900 px-2.5 py-1.5 lg:px-3.5 lg:py-2.5 text-md font-semibold text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800"
+                  className="rounded-md bg-gray-900 px-2.5 py-3.5 lg:px-3.5 lg:py-2.5 text-md font-semibold text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800"
                 >
                   Contact Now
                 </a>
@@ -58,7 +58,7 @@ const HeroSection = () => {
               <span>
                 <a
                   href="mailto: abdulhameed000650@gmail.com"
-                  className="rounded-md ring-1 ring-green-700 px-2.5 py-1.5 lg:px-3.5 lg:py-2.5 text-md font-semibold text-green-700 hover:bg-green-700 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800"
+                  className="rounded-md ring-1 ring-green-700 px-2.5 py-3.5 lg:px-3.5 lg:py-2.5 text-md font-semibold text-green-700 hover:bg-green-700 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800"
                 >
                   <i className="fa-solid fa-headset pr-2"></i>
                   Free Consultion

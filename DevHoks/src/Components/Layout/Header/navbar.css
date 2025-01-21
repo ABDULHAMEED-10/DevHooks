@@ -1,5 +1,5 @@
 .navbar__container {
-  height: 6rem;
+  height: 5rem;
 }
 .navbar__logo {
   font-size: 24px;
@@ -246,6 +246,9 @@
   }
   .navbar__list {
     display: none;
+  }
+  .navbar__container {
+    height: 4rem;
   }
 }
 

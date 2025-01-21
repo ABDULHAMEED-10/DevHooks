@@ -13,7 +13,7 @@ import CallToAction from "./HomeComponents/CallToAction/CallToAction";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <MetaData title="Home" />
       <HeroSection />
       {/* <Brand /> */}
