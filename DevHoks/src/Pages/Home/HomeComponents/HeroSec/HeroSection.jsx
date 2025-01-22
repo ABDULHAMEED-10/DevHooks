@@ -60,16 +60,16 @@ const HeroSection = () => {
               World.
             </p>
             <div className="mt-20 lg:mt-10 flex flex-row justify-center items-center gap-4 lg:gap-6">
-              <span>
+              <span className="hover:scale-105 transition duration-300">
                 <a
                   href="https://wa.me/+923000713825"
-                  className="rounded-md bg-gray-900 px-2.5 py-3.5 lg:px-3.5 lg:py-2.5 text-md font-semibold text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800"
+                  className="rounded-md bg-gray-900 px-2.5 py-3.5 lg:px-3.5 lg:py-2.5 text-md font-semibold text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800 "
                 >
                   Contact Now
                 </a>
               </span>
               <span className="hidden lg:inline-block">OR</span>
-              <span>
+              <span className="hover:scale-105 transition duration-300">
                 <a
                   href="mailto: abdulhameed000650@gmail.com"
                   className="rounded-md ring-1 ring-green-700 px-2.5 py-3.5 lg:px-3.5 lg:py-2.5 text-md font-semibold text-green-700 hover:bg-green-700 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800"

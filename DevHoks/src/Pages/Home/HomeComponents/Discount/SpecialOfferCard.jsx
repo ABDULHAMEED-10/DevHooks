@@ -14,7 +14,7 @@ const DiscountCard = ({ prop }) => {
     }
   };
   return (
-    <div className="overflow-hidden px-18 py-10 bg-white border border-white rounded-lg flex flex-col items-center justify-center">
+    <div className="overflow-hidden px-18 py-10 bg-white border border-white rounded-lg flex flex-col items-center justify-center hover:scale-105 transition duration-300">
       <div
         className={`mb-4 w-24 h-24 text-5xl rounded-lg flex items-center justify-center text-white ${getBackgroundColor(
           prop.id

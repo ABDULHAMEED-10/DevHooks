@@ -6,7 +6,7 @@ export const TimeLine = () => {
       <div className="mx-auto min-w-2xl px-4 lg:px-8 lg:min-w-6xl">
         <TitleAndPara prop={titleParaInfo[1]} />
       </div>
-      <div className="px-10 md:px-24 mx-auto max-w-7xl bg-gray-100 dark:bg-gray-800 rounded-2xl py-10">
+      <div className="px-10 md:px-24 mx-auto max-w-7xl bg-gray-100 dark:bg-gray-800 rounded-2xl py-10 hover:scale-105 transition duration-300">
         <ol className="relative border-s border-green-600 dark:border-green-600">
           <li className="mb-10 ms-4">
             <div className="absolute w-3 h-3 bg-green-700 rounded-full mt-1.5 -start-1.5 border-none dark:bg-green-700"></div>

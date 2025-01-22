@@ -2,7 +2,7 @@ import propTypes from "prop-types";
 
 export const CaurosalCard = ({ prop }) => {
   return (
-    <div className="w-full rounded-2xl border p-5 shadow-md ">
+    <div className="w-full rounded-2xl border p-5 shadow-md hover:scale-105 transition duration-300">
       <div className="w-full">
         <div className="flex items-center justify-start mb-4">
           <img

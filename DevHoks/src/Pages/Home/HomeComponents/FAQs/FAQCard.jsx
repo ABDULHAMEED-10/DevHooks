@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export const FAQCard = ({ prop }) => {
   return (
-    <div className="flex flex-col md:flex-row gap-6 lg:gap-8 border border-green-700 p-6 rounded-lg shadow-md">
+    <div className="flex flex-col md:flex-row gap-6 lg:gap-8 border border-green-700 p-6 rounded-lg shadow-md hover:scale-105 transition duration-300">
       <div className="flex items-center justify-center bg-green-200 text-green-700 rounded-lg w-12 h-12 md:w-16 md:h-12">
         <i className={`${prop.icon} text-2xl `}></i>
       </div>
