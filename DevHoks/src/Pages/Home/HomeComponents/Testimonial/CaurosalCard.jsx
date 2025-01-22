@@ -2,13 +2,13 @@ import propTypes from "prop-types";
 
 export const CaurosalCard = ({ prop }) => {
   return (
-    <div className="w-full rounded-2xl border p-5">
+    <div className="w-full rounded-2xl border p-5 shadow-md ">
       <div className="w-full">
         <div className="flex items-center justify-start mb-4">
           <img
             src={prop.pic}
             alt="profile"
-            className="w-12 h-12 rounded-full"
+            className="w-12 h-12 rounded-full object-cover"
           />
           <div className="ml-3">
             <h2 className="text-lg font-bold text-gray-800">{prop.name}</h2>

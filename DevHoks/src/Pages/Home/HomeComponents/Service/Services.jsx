@@ -1,4 +1,4 @@
-import { servicesData,titleParaInfo } from "../../../../demoData";
+import { servicesData, titleParaInfo } from "../../../../demoData";
 import TitleAndPara from "../TitleAndPara";
 import ServicesCard from "./ServicesCard";
 export const Services = () => {
@@ -6,7 +6,7 @@ export const Services = () => {
     <div className="py-10">
       <div className="mx-auto max-w-8xl px-4 lg:px-8 ">
         <TitleAndPara prop={titleParaInfo[0]} />
-        <div className="flex flex-col lg:flex-row  items-center justify-center gap-3 md:gap-5 lg:gap-8">
+        <div className="flex flex-col lg:flex-row  items-center justify-center">
           {servicesData.map((service, i) => (
             <div
               key={i}

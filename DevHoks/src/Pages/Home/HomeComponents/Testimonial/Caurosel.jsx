@@ -60,9 +60,9 @@ export const Caurosel = () => {
       </div>
 
       {/* Carousel */}
-      <div className="relative w-full max-w-7xl mx-auto overflow-hidden">
+      <div className="relative w-full max-w-7xl mx-auto overflow-hidden ">
         <div
-          className="flex transition-transform duration-700 ease-in-out"
+          className="flex transition-transform duration-700 ease-in-out py-3"
           style={{ transform: getTransformValue() }}
         >
           {reviewsData.map((review, index) => (

@@ -2,6 +2,9 @@
 import React from "react";
 import "./../../HomeComponents/Home.css";
 import { Typewriter } from "react-simple-typewriter";
+// import image1 from "./../../../../assets/baner-1-1.png";
+// import image2 from "./../../../../assets/baner-1-2.png";
+// import image3 from "./../../../../assets/baner-1-3.png";
 
 const HeroSection = () => {
   const services = [
@@ -13,12 +16,23 @@ const HeroSection = () => {
     "Digital Marketing",
   ];
   return (
-    <div className="hero__section__wrapper h-svh py-12 lg:py-4 rounded-b-3xl lg:rounded-b-full">
+    <div className="hero__section__wrapper py-12 lg:py-4 rounded-b-3xl lg:rounded-b-full">
       <div className="relative isolate px-4 lg:px-8 ">
-        <div
-          aria-hidden="true"
-          className="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
-        ></div>
+        {/* <img
+          src={image2}
+          alt="hero"
+          className="absolute animate-bounce-slow z-10 w-56 top-36 left-0 filter-green-700 "
+        />
+        <img
+          src={image1}
+          alt="hero"
+          className="absolute animate-bounce-right-left-slow w-24 top-52 left-40 z-20 filter-green-700"
+        />
+        <img
+          src={image3}
+          alt="hero"
+          className="absolute animate-bounce-slow w-96 top-52 right-0 -z-20 filter-green-700"
+        /> */}
         <div className="mx-auto min-w-5xl py-28 sm:py-32 lg:py-44">
           <div className="mb-16 lg:mb-8 flex justify-center">
             <div className="relative rounded-full px-4 py-2 text-md leading-6 font-medium text-green-700 bg-green-300 ring-1 ring-green-300">
@@ -27,7 +41,7 @@ const HeroSection = () => {
           </div>
           <div className="text-center ">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 md:text-6xl lg:text-8xl">
-              We Tackle Every Nech{" "}
+              We Tackle Every Niche{" "}
               <div className="text__gradient">
                 <Typewriter
                   words={services}

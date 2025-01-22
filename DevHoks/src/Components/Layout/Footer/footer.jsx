@@ -234,7 +234,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className="col-span-2 sm:col-span-1">
+              <div className="col-span-2 sm:col-span-1 mt-8 lg:mt-0">
                 <p className="font-medium text-gray-900 dark:text-white">
                   Helpful Links
                 </p>

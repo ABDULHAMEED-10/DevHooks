@@ -7,6 +7,8 @@ import test1 from "../src/assets/tes-1-1.jpg";
 import test2 from "../src/assets/tes-1-2.jpg";
 import test3 from "../src/assets/tes-1-3.jpg";
 import test4 from "../src/assets/tes-1-4.jpg";
+import test5 from "../src/assets/tes-1-5.png";
+
 const servicestype = [
   {
     id: 1,
@@ -156,6 +158,14 @@ const reviewsData = [
     review:
       "I am thrilled with the website that Rixon Bit created for my business. It is visually stunning, easy to use, and has helped me increase my online sales. The team was a pleasure to work with and delivered the project on time and within budget.",
   },
+  {
+    id: 5,
+    pic: test5,
+    name: "Alyssa Mccarthy",
+    designation: "CEO, Mccarthy Marketing",
+    review:
+      "Rixon Bit exceeded our expectations with their web development services. Their attention to detail and commitment to deadlines were outstanding. Our platform is now faster, more user-friendly, and highly secure. Highly recommended!",
+  },
 ];
 
 const statsData = [
@@ -252,6 +262,13 @@ const FAQdata = [
     question: "What makes Rixon Bit different from other agencies?",
     answer:
       "Rixon Bit is different from other agencies because we prioritize our clients' needs and deliver high-quality work on time and within budget. Our team of experts is committed to helping you achieve your business goals and grow your online presence.",
+  },
+  {
+    id: 4,
+    icon: "fa-solid fa-handshake",
+    question: "Do you offer free consultations?",
+    answer:
+      "Yes! We offer free 45-minute consultations for your business idea. Our team of experts will provide you with valuable insights and recommendations to help you get started on the right foot.",
   },
 ];
 

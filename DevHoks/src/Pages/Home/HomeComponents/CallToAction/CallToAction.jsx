@@ -17,7 +17,7 @@ export const CallToAction = () => {
         </div>
       </div>
       <div>
-        <button className="bg-gray-900 text-gray-100 px-6 py-3 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 transform hover:scale-105 dark:bg-gray-100 dark:text-gray-900 ">
+        <button className="bg-gray-200 border-none text-gray-900 px-6 py-3 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 transform hover:scale-105 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-200 dark:hover:text-gray-900 ">
           <a href="/contact">Get Started Now</a>
         </button>
       </div>

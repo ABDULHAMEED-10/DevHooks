@@ -2,7 +2,11 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 const ServicesCard = ({ prop }) => {
   return (
-    <div className="px-8 py-16 bg-white border border-white rounded-lg service_card">
+    <div
+      className={`px-8 bg-white service_card border border-white lg:border-none  ${
+        prop.id == 2 ? "py-20" : "py-16"
+      }`}
+    >
       <i
         className={`service_icon mb-4 text-4xl bg-green-600 w-14 h-14 rounded-lg flex items-center justify-center text-white ${prop.icon}`}
       ></i>

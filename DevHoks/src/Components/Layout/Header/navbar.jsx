@@ -40,7 +40,7 @@ const Navbar = () => {
             <NavComponents toward="about" nam="About us" />
           </li>
         </ul>
-        <button className="flex items-center align-center ">
+        <button className="flex items-center align-center transition duration-300 transform hover:scale-105">
           <NavLink to="/contact" className="nav__button">
             Contact
           </NavLink>
