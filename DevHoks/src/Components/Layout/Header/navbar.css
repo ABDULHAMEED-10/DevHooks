@@ -31,6 +31,7 @@
 .for__icon:hover .drop__down__icon {
   transform: rotate(180deg);
   transition: transform 0.5s ease-in-out;
+  color: var(--green-hover-color);
 }
 .dropdown {
   display: none;
@@ -71,9 +72,13 @@
   background-color: var(--green-hover-color);
 }
 
-.dropdown li:hover {
-  background-color: var(--gray-hover-color);
+.dropdown li:hover a {
+  color: var(--green-hover-color);
 }
+
+/* .dropdown li:hover {
+  background-color: var(--gray-hover-color);
+} */
 
 .dropdown li:first-child {
   border-top-right-radius: 10px;

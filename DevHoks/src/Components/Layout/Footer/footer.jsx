@@ -3,6 +3,7 @@ import "./footer.css";
 import React from "react";
 import { Link } from "react-router-dom";
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="">
       <div className="bg-gray-100 dark:bg-gray-900 pt-40 mt-36 ">
@@ -333,7 +334,7 @@ const Footer = () => {
           <div className="mt-8 border-t border-gray-100 pt-8 dark:border-gray-800">
             <div className="sm:flex sm:justify-between">
               <p className="text-xs text-gray-500 dark:text-gray-400">
-                &copy; 2024. Rixon Bit. All rights reserved.
+                &copy; {currentYear}. Rixon Bit. All rights reserved.
               </p>
               <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
                 <li>

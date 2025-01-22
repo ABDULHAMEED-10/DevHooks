@@ -29,8 +29,8 @@ const Navbar = () => {
               <ServiceComponents />
             </li>
             <i
-              className="fa-solid fa-angle-down drop__down__icon"
-              style={{ color: isServicePath ? "black" : "gray" }}
+              className="fa-solid fa-angle-down drop__down__icon text-gray-600"
+              // style={{ color: isServicePath ? "black" : "gray" }}
             ></i>
           </div>
           <li>
