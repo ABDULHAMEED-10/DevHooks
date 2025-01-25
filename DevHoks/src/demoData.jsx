@@ -102,7 +102,7 @@ const discountData = [
     icon: "fa-solid fa-circle-check",
     title: "Army Veterans - 20% Off",
     description:
-      "Rixon Bit Honor You, 20% Discount for Army Veterans. You Served Us, Now Let Us Serve You.",
+      "Rixon Honor You, 20% Discount for Army Veterans. You Served Us, Now Let Us Serve You.",
     lnk: "",
   },
   {
@@ -130,7 +130,7 @@ const reviewsData = [
     name: "Kenzie Edgar",
     designation: "CEO, Tech Solutions Inc.",
     review:
-      "Rixon Bit exceeded our expectations with their web development services. Their attention to detail and commitment to deadlines were outstanding. Our platform is now faster, more user-friendly, and highly secure. Highly recommended!",
+      "Rixon exceeded our expectations with their web development services. Their attention to detail and commitment to deadlines were outstanding. Our platform is now faster, more user-friendly, and highly secure. Highly recommended!",
   },
   {
     id: 2,
@@ -138,7 +138,7 @@ const reviewsData = [
     name: "Stevie Tifft",
     designation: "Founder, Tifft Technologies",
     review:
-      "Working with Rixon Bit was an absolute pleasure. They transformed our vision into a stunning e-commerce website with seamless functionality. The team was professional, responsive, and went above and beyond to deliver a perfect product.",
+      "Working with Rixon was an absolute pleasure. They transformed our vision into a stunning e-commerce website with seamless functionality. The team was professional, responsive, and went above and beyond to deliver a perfect product.",
   },
 
   {
@@ -147,7 +147,7 @@ const reviewsData = [
     name: "Kendall Mcguffie",
     designation: "CEO, Mcguffie Media Group",
     review:
-      "Rixon Bit is a team of highly skilled professionals who are committed to delivering quality work. They built a beautiful website for my business that is easy to navigate and has helped me attract more clients. I am extremely happy with the results!",
+      "Rixon is a team of highly skilled professionals who are committed to delivering quality work. They built a beautiful website for my business that is easy to navigate and has helped me attract more clients. I am extremely happy with the results!",
   },
 
   {
@@ -156,7 +156,7 @@ const reviewsData = [
     name: "Maurice Harnish",
     designation: "Founder, Harnish Enterprises",
     review:
-      "I am thrilled with the website that Rixon Bit created for my business. It is visually stunning, easy to use, and has helped me increase my online sales. The team was a pleasure to work with and delivered the project on time and within budget.",
+      "I am thrilled with the website that Rixon created for my business. It is visually stunning, easy to use, and has helped me increase my online sales. The team was a pleasure to work with and delivered the project on time and within budget.",
   },
   {
     id: 5,
@@ -164,7 +164,7 @@ const reviewsData = [
     name: "Alyssa Mccarthy",
     designation: "CEO, Mccarthy Marketing",
     review:
-      "Rixon Bit exceeded our expectations with their web development services. Their attention to detail and commitment to deadlines were outstanding. Our platform is now faster, more user-friendly, and highly secure. Highly recommended!",
+      "Rixon exceeded our expectations with their web development services. Their attention to detail and commitment to deadlines were outstanding. Our platform is now faster, more user-friendly, and highly secure. Highly recommended!",
   },
 ];
 
@@ -205,25 +205,25 @@ const titleParaInfo = [
     title: "Top Featured Services",
     heading: "Experience Top Services of Our Agency",
     description:
-      "These are the Special services of Rixon Bit,Guaranteed Satisfaction and Professionalism.",
+      "These are the Special services of Rixon,Guaranteed Satisfaction and Professionalism.",
   },
   {
     id: 2,
     title: "Thats How We Work",
-    heading: "Experience Rixon Bit's Flows",
+    heading: "Experience Rixon's Flows",
     description:
       "Think of our algorithm like butter on bread—smooth and effortless. It's that simple! Each step flows seamlessly, making meetings a breeze.",
   },
   {
     id: 3,
     title: "SPECIAL DISCOUNTS",
-    heading: "Special Offers for Special People by Rixon Bit",
+    heading: "Special Offers for Special People by Rixon",
     description: "Get the Best Offers and Discounts on our Services.",
   },
   {
     id: 4,
     title: "Why People Choose Us",
-    heading: "Why Choose Rixon Bit Over Others",
+    heading: "Why Choose Rixon Over Others",
     description:
       "With over 1 million agencies out there, here's what sets us apart and keeps clients winning.",
   },
@@ -252,16 +252,16 @@ const FAQdata = [
   {
     id: 2,
     icon: "fa-solid fa-book",
-    question: "How do I get started with Rixon Bit?",
+    question: "How do I get started with Rixon?",
     answer:
-      "Getting started with Rixon Bit is easy! Simply fill out our contact form, and one of our agents will reach out to you to discuss your needs and recommend the best solutions for your business.",
+      "Getting started with Rixon is easy! Simply fill out our contact form, and one of our agents will reach out to you to discuss your needs and recommend the best solutions for your business.",
   },
   {
     id: 3,
     icon: "fa-solid fa-pen-to-square",
-    question: "What makes Rixon Bit different from other agencies?",
+    question: "What makes Rixon different from other agencies?",
     answer:
-      "Rixon Bit is different from other agencies because we prioritize our clients' needs and deliver high-quality work on time and within budget. Our team of experts is committed to helping you achieve your business goals and grow your online presence.",
+      "Rixon is different from other agencies because we prioritize our clients' needs and deliver high-quality work on time and within budget. Our team of experts is committed to helping you achieve your business goals and grow your online presence.",
   },
   {
     id: 4,

@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="text-teal-600 dark:text-teal-300 lg:flex flex gap-2 items-center lg:items-center lg:justify-start lg:gap-3  ">
                 <img className="rounded-full w-9 h-9" src="/logo.png"></img>
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-                  RixonBit Tech
+                  Rixon
                 </h2>
               </div>
               <ul className="col-span-2 flex justify-start gap-2 lg:col-span-5 lg:justify-start ">
@@ -110,9 +110,7 @@ const Footer = () => {
                 </li>
               </ul>
 
-              <h1 className="text-gray-400 dark:text-gray-500 ">
-                © Rixon Bit.
-              </h1>
+              <h1 className="text-gray-400 dark:text-gray-500 ">© Rixon.</h1>
             </div>
             <div className="mt-8 grid grid-cols-2 gap-x-8 lg:mt-0 lg:grid-cols-5 ">
               <div className="col-span-2 "></div>
