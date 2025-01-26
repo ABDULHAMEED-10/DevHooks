@@ -11,11 +11,15 @@
   );
   border: none;
 }
+.custom-cursor .styles-module_blinkingCursor__yugAC {
+  color: var(--green-hover-color);
+  animation: blink 1s infinite;
+}
 .text__gradient {
   background: linear-gradient(to right, #07b262 0%, #c66e0f 50%, #8425dd 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-bottom: 0.5rem;
 }
 .service_card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

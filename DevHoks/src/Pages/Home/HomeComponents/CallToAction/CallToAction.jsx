@@ -2,7 +2,7 @@ import React from "react";
 import image from "../../../../assets/fun-6.png";
 export const CallToAction = () => {
   return (
-    <div className="absolute  w-[85%] -top-24 left-1/2 transform -translate-x-1/2 border-2 border-green-700 py-10 bg-green-700  z-10 rounded-xl shadow-lg flex flex-col lg:flex-row items-center justify-between px-10 lg:px-36 py-12 lg:py-14 hover:scale-105 transition duration-300">
+    <div className="absolute  w-[85%] -top-24 left-1/2 transform -translate-x-1/2 border-2 border-green-700 py-10 bg-green-700  rounded-xl shadow-lg flex flex-col lg:flex-row items-center justify-between px-10 lg:px-36 py-12 lg:py-14 hover:scale-105 transition duration-300">
       <div className="flex items-center gap-6 lg:gap-10">
         <div className="hidden lg:flex items-center justify-center rounded-full w-16 h-16">
           <img src={image} alt="fun" className="" />
@@ -18,7 +18,9 @@ export const CallToAction = () => {
       </div>
       <div>
         <button className="bg-gray-200 border-none text-gray-900 px-6 py-3 rounded-lg mt-4 hover:bg-gray-800 transition duration-300 transform hover:scale-105 dark:bg-gray-800 dark:text-gray-100 dark:hover:bg-gray-200 dark:hover:text-gray-900 ">
-          <a href="/contact">Get Started Now</a>
+          <a href="https://calendly.com/abdulhameed000650/30min">
+            Get Started Now
+          </a>
         </button>
       </div>
     </div>

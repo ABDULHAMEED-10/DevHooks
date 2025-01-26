@@ -21,7 +21,7 @@ const Layout = () => {
     <div>
       <Navbar />
       <Outlet />
-      <div className="relative">
+      <div className="relative ">
         <CallToAction />
         <Footer />
       </div>

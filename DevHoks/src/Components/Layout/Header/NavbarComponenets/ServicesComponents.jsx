@@ -16,7 +16,7 @@ const ServiceComponents = () => {
         //     fontWeight: isActive ? "bold" : "normal",
         //   };
         // }}
-        className="navbar__link  py-5 font-bold text-gray-600"
+        className="navbar__link  py-5 font-bold text-gray-700"
       >
         Services
       </NavLink>

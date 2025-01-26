@@ -64,7 +64,7 @@ const MessageParser = ({ children, actions }) => {
     }
   };
   return (
-    <div>
+    <div className="messageParser z-90">
       {React.Children.map(children, (child) => {
         return React.cloneElement(child, {
           parse: parse,

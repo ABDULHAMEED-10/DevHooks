@@ -7,14 +7,16 @@ import { Typewriter } from "react-simple-typewriter";
 // import image3 from "./../../../../assets/baner-1-3.png";
 
 const HeroSection = () => {
-  const services = [
+  let services = [
     "Web Development",
     "App Development",
     "Ui/Ux Designing",
     "Graphic Designing",
+    "E-Commerce",
     "SEO Optimization",
-    "Digital Marketing",
+    "Data Science",
   ];
+  // services = services.map((service) => service.toUpperCase());
   return (
     <div className="hero__section__wrapper py-12 lg:py-4 rounded-b-3xl lg:rounded-b-full">
       <div className="relative isolate px-4 lg:px-8 ">
@@ -39,10 +41,10 @@ const HeroSection = () => {
               Delivering The Solution Over The Globe.{""}
             </div>
           </div>
-          <div className="text-center ">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 md:text-6xl lg:text-8xl">
+          <div className="text-center">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 md:text-6xl lg:text-8xl ">
               We Tackle Every Niche{" "}
-              <div className="text__gradient">
+              <div className="text__gradient w-full py-3">
                 <Typewriter
                   words={services}
                   loop={0}
@@ -51,12 +53,13 @@ const HeroSection = () => {
                   typeSpeed={50}
                   deleteSpeed={30}
                   delaySpeed={1500}
+                  className="custom-cursor"
                 />
               </div>
             </h1>
 
             <p className="mt-3 text-sm leading-8 text-gray-600 md:text-lg md:mt-6">
-              We are Top Agency in UK with over 600+ Satisfied Clients over the
+              We are Top Agency in UK with over 60+ Satisfied Clients over the
               World.
             </p>
             <div className="mt-20 lg:mt-10 flex flex-row justify-center items-center gap-4 lg:gap-6">
@@ -71,7 +74,7 @@ const HeroSection = () => {
               <span className="hidden lg:inline-block">OR</span>
               <span className="hover:scale-105 transition duration-300">
                 <a
-                  href="mailto: abdulhameed000650@gmail.com"
+                  href="https://calendly.com/abdulhameed000650/30min"
                   className="rounded-md ring-1 ring-green-700 px-2.5 py-3.5 lg:px-3.5 lg:py-2.5 text-md font-semibold text-green-700 hover:bg-green-700 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-800"
                 >
                   <i className="fa-solid fa-headset pr-2"></i>

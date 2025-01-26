@@ -28,9 +28,14 @@ button:hover {
 body {
   font-family: var(--popins-font-fmaily);
 }
-/* p,span,li, a{
-    font-family: var(--body-font-fmaily)
-} */
+p,
+span,
+li,
+a,
+time,
+button {
+  font-family: var(--body-font-fmaily);
+}
 
 /* Custom scrollbar styles */
 /* ::-webkit-scrollbar {

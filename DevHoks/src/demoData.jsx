@@ -27,16 +27,21 @@ const servicestype = [
   },
   {
     id: 4,
+    to: "/service/graphicDesigning",
+    title: "Graphic Designing",
+  },
+  {
+    id: 5,
     to: "/service/seo",
     title: "SEO",
   },
   {
-    id: 5,
+    id: 6,
     to: "/service/Ecommerce",
     title: "E-commerce",
   },
   {
-    id: 6,
+    id: 7,
     to: "/service/dataScience",
     title: "Data Science",
   },
@@ -188,7 +193,7 @@ const statsData = [
     icon: "fa-solid fa-phone",
     title: "Free Consultation, Real Results for Free",
     description:
-      "Get a free 45-minute consultation for your business idea.No $250 charge - we're your allies, offering this service for free.",
+      "Get a free 30-minute consultation for your business idea.No $250 charge - we're your allies, offering this service for free.",
   },
   {
     id: 4,
@@ -268,7 +273,7 @@ const FAQdata = [
     icon: "fa-solid fa-handshake",
     question: "Do you offer free consultations?",
     answer:
-      "Yes! We offer free 45-minute consultations for your business idea. Our team of experts will provide you with valuable insights and recommendations to help you get started on the right foot.",
+      "Yes! We offer free 30-minute consultations for your business idea. Our team of experts will provide you with valuable insights and recommendations to help you get started on the right foot.",
   },
 ];
 

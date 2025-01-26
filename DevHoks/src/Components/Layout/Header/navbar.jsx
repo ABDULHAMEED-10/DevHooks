@@ -11,10 +11,10 @@ const Navbar = () => {
   const isServicePath = location.pathname.includes("service");
 
   return (
-    <div className="navbar__container flex flex-row items-center gap-20 px-20 md:justify-around fixed top-0 left-0 right-0 z-50 bg-white">
+    <div className="navbar__container flex flex-row items-center gap-20 px-12 md:justify-around fixed top-0 left-0 right-0 z-50 bg-white">
       <div className="navbar__left flex flex-row items-center justify-center gap-2">
-        <img src="/logo.png" alt="Devhoks"></img>
-        <a href="/" className="navbar__logo">
+        <img src="/logo.png" alt="Rixon" className="cursor-pointer"></img>
+        <a href="/" className="navbar__logo md:opacity-50">
           Rixon
         </a>
       </div>

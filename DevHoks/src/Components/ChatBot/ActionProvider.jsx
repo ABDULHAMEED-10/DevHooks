@@ -41,13 +41,13 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
 
   const handleServicesQuery = () => {
     const message = createChatBotMessage(
-      "We offer a variety of services including web development, mobile app development, SEO, and digital marketing."
+      "We offer a variety of services including web development, mobile app development, SEO, and Ai Powered Solutions."
     );
     setState((state) => ({ ...state, messages: [...state.messages, message] }));
   };
   const handleBrandingQuery = () => {
     const message = createChatBotMessage(
-      "Our branding services include logo design, brand strategy, and identity development."
+      "Our branding services include innovation, brand strategy, and identity development."
     );
     setState((state) => ({ ...state, messages: [...state.messages, message] }));
   };
