@@ -30,7 +30,7 @@ const NavHamburger = () => {
               <div className="navbar__left flex gap-2">
                 <img src="/logo.png" alt="Devhoks"></img>
                 <NavLink to="/" className="navbar__logo opacity-80 text-white">
-                  RixonBit
+                  Rixon
                 </NavLink>
               </div>
               <div className="ham-menu">

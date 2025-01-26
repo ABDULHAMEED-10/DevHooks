@@ -169,6 +169,14 @@ const Footer = () => {
                       Ui/Ux Designing
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      to="/service/graphicDesigning"
+                      className="text-gray-500 transition hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+                    >
+                      Graphic Designing
+                    </Link>
+                  </li>
 
                   <li>
                     <Link
