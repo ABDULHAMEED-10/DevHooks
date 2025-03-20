@@ -276,7 +276,22 @@ const FAQdata = [
       "Yes! We offer free 30-minute consultations for your business idea. Our team of experts will provide you with valuable insights and recommendations to help you get started on the right foot.",
   },
 ];
-
+const allProjects = [
+  {
+    id: 1,
+    title: "E-Commerce Platform",
+    category: "web",
+    tags: ["React", "Node.js", "MongoDB"],
+    image: "/placeholder.svg?height=600&width=800",
+    description:
+      "A full-featured e-commerce platform with product management, cart functionality, and payment processing.",
+    client: "RetailTech Inc.",
+    date: "June 2023",
+    link: "#",
+    github: "#",
+    featured: true,
+  },
+];
 export {
   servicestype,
   brandsData,
@@ -286,4 +301,5 @@ export {
   statsData,
   titleParaInfo,
   FAQdata,
+  allProjects,
 };
