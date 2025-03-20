@@ -4,6 +4,7 @@ import TitleAndPara from "../TitleAndPara";
 import CaurosalCard from "./CaurosalCard";
 import { useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
+import { ChevronLeft, ChevronRight } from "lucide-react"; // Import Lucide icons
 
 export const Caurosel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -60,7 +61,26 @@ export const Caurosel = () => {
       </div>
 
       {/* Carousel */}
-      <div className="relative w-full max-w-7xl mx-auto overflow-hidden ">
+      <div className="relative w-full max-w-7xl mx-auto overflow-hidden px-10">
+        {/* Left Navigation Arrow */}
+        <button
+          onClick={goToPrevious}
+          className="absolute left-1 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-3  hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-500"
+          aria-label="Previous slide"
+        >
+          <ChevronLeft className="h-6 w-6 text-gray-700" /> {/* Lucide icon */}
+        </button>
+
+        {/* Right Navigation Arrow */}
+        <button
+          onClick={goToNext}
+          className="absolute right-1 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-3   hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-500"
+          aria-label="Next slide"
+        >
+          <ChevronRight className="h-6 w-6 text-gray-700" /> {/* Lucide icon */}
+        </button>
+
+        {/* Carousel Content */}
         <div
           className="flex transition-transform duration-700 ease-in-out py-3"
           style={{ transform: getTransformValue() }}
@@ -92,6 +112,11 @@ export const Caurosel = () => {
             ></div>
           )
         )}
+      </div>
+
+      {/* Testimonial count */}
+      <div className="text-center mt-10 text-sm text-gray-500">
+        <p>Based on {totalItems} verified customer reviews</p>
       </div>
     </div>
   );

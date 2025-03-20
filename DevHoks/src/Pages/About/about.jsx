@@ -1,14 +1,11 @@
-import Description from "./AboutComponents/Description";
+import AboutSection from "./AboutComponents/AboutSection";
 
 const About = () => {
-    return (
-        <div>
-            
-        <Description /> 
-       
-      </div>
-    );
+  return (
+    <div>
+      <AboutSection />
+    </div>
+  );
 };
 
 export default About;
-

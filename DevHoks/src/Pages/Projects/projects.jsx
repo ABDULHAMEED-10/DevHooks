@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import Description from "../About/AboutComponents/Description";
+import ProjectsSection from "./ProjectsComponents/ProjectsSection";
 
 export const projects = () => {
   return (
     <div>
-      <Description />
+      <ProjectsSection />
     </div>
   );
 };
